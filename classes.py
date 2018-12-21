@@ -84,13 +84,15 @@ class Annotation:
 		
 		:param inString: The string that this object will represent.
 		:return: Nothing.
-		:var concept: String representing concept (i.e. "the sickness").
+                :var original: Original annotation
+                :var concept: String representing concept (i.e. "the sickness").
 		:var label: Classification label (i.e. "problem").
 		:var line: Line number on which the concept appears.
 		:var startWord: Index of first word in the concept.
 		:var endWord: Index of the word after the concept ends.
 		"""
-		
+		self.original = inString
+
 		#Clean up inString into segments we can use
 		parse = re.sub(r'c="', '', inString)
 		concept = re.sub(r'" \d+:\d+.*$', '', parse)

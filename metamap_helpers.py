@@ -12,6 +12,7 @@ problems = [
     'acab', #Acquired Abnormality
     'cgab', #Congenital Abnormality
     'dsyn', #Disease or Syndrome
+    'fndg', #finding
     'inpo', #Injury or Poisoning
     'mobd', #Mental or Behavioral Dysfunction
     'neop', #Neoplastic Process
@@ -22,9 +23,13 @@ problems = [
 #Author: Evan French
 #MetaMap semantic types corresponding to medical tests
 tests = [
+    'bacs', #Biologically Active Substance
     'diap', #Diagnostic Procedure
+    'elii', #Element, Ion, or Isotope
     'lbpr', #Laboratory Procedure
     'lbtr', #Laboratory or Test Result
+    'irda', #Indicator, Reagent, or Diagnostic Aid
+    'resa', #Research Activity
 ]
 
 #Author: Evan French
@@ -32,6 +37,7 @@ tests = [
 treatments = [
     'antb', #Antibiotic
     'clnd', #Clinical Drug
+    'phsu', #Pharmacologic Substance
     'topp', #Therapeutic or Preventive Procedure
 ]
 
@@ -48,11 +54,13 @@ def GetMetamapLabel(semTypeList):
     #Default label is 'none'
     label = "none"
     
-    if set(semTypeList).issubset(problems):
+    semTypeSet = set(semTypeList)
+
+    if not semTypeSet.isdisjoint(problems) and semTypeSet.isdisjoint(tests) and semTypeSet.isdisjoint(treatments):
         label = "problem"
-    elif set(semTypeList).issubset(tests):
+    elif semTypeSet.isdisjoint(problems) and not semTypeSet.isdisjoint(tests) and semTypeSet.isdisjoint(treatments):
         label = "test"
-    elif set(semTypeList).issubset(treatments):
+    elif semTypeSet.isdisjoint(problems) and semTypeSet.isdisjoint(tests) and not semTypeSet.isdisjoint(treatments):
         label = "treatment"
         
     return label
@@ -66,7 +74,8 @@ def CheckAnnotationAgainstSemTypes(annotation, semTypes):
     @return: True if the labels match and label is not 'none', false otherwise
     """
     mm_label = GetMetamapLabel(semTypes)
-    return mm_label != 'none' and annotation.label == mm_label
+    isGold = mm_label != 'none' and annotation.label == mm_label
+    return isGold, mm_label
 
 #Author: Evan French
 def GetMetaMapSemanticTypes(metamap_path, annotations):
@@ -87,6 +96,7 @@ def GetMetaMapSemanticTypes(metamap_path, annotations):
 
     #Iterate over the list of concepts extracted from the list of annotations
     for concept in concepts:
+        index = int(concept.index)
         for semtype in concept.semtypes.strip('[]').split(','):
             if semtype not in anSemTypeList[index]:
                 #Create a list of unique semantic types per annotation

@@ -6,6 +6,7 @@ Authors: Jeffrey Smith, Bill Cramer, Evan French
 """
 import sys, getopt, os, re
 import metamap_helpers
+from classes import Annotation
 
 def main():
     """
@@ -14,7 +15,7 @@ def main():
     metamap_path, ann_path, silver_ann_path, save_failed = None, None, None, None
 
     #Process command line entries.
-    opts, args = getopt.getopt(sys.argv[1:], 'm:a:g:f:h',["metamap=","ann_path=","silver_ann_path=","save_failed=","help"])
+    opts, args = getopt.getopt(sys.argv[1:], 'm:a:g:s:h',["metamap=","ann_path=","silver_ann_path=","save_failed=","help"])
     for opt, arg, in opts:
         if opt in ("-m","--metamap"):
             metamap_path = arg
@@ -89,7 +90,7 @@ def ProcessAnnotations(metamap_path, ann_path, silver_ann_path, save_failed = Fa
 		os.makedirs(failed_path)
 
 	#Iterate over documents in the ann_path directory
-	for document in os.listdir():
+	for document in [f for f in os.listdir() if os.path.isfile(f)]:
 
 		#Strip the extension from the file to get the document name
 		docName = os.path.splitext(document)[0]
@@ -112,23 +113,23 @@ def ProcessAnnotations(metamap_path, ann_path, silver_ann_path, save_failed = Fa
 		
 		#Check MetaMap prediction vs annotation label
 		for ix, annotation in enumerate(annotationList):
-			isSilver = CheckAnnotationAgainstSemTypes(annotation, mmSemTypes[ix])
+			isSilver, prediction = metamap_helpers.CheckAnnotationAgainstSemTypes(annotation, mmSemTypes[ix])
 			
 			#If metamap and annotation file agree, add to silver standard list
 			if isSilver:
-				silverList.append(a.original)
+				silverList.append(annotation.original)
 			elif save_failed:
-				failedList.append(a.original)
+				failedList.append(prediction + ' ' + annotation.original)
 		
 		#Write new silver standard annotations to a new file
-		new_silver_file = silver_ann_path + docName + ".txt"
+		new_silver_file = os.path.join(silver_ann_path, docName + ".con")
 		with open(new_silver_file, 'w') as f:
 			for item in silverList:
 				f.write(item)
 
 		#Write non-silver annotations to a new file if save_failed = True
 		if save_failed:
-			new_failed_file = failed_path + docName + ".txt"
+			new_failed_file = os.path.join(failed_path, docName + ".con")
 			with open(new_failed_file, 'w') as f:
 				for item in failedList:
 					f.write(item)
