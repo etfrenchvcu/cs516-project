@@ -3,7 +3,7 @@ metamap_helpers.py
 Scope: Helper functions for interacting with metamap
 Authors: Evan French
 """
-from pymetamap import MetaMap
+from pymetamap import MetaMap, ConceptMMI
 from classes import Annotation
 
 #Author: Evan French
@@ -97,9 +97,10 @@ def GetMetaMapSemanticTypes(metamap_path, annotations):
     #Iterate over the list of concepts extracted from the list of annotations
     for concept in concepts:
         index = int(concept.index)
-        for semtype in concept.semtypes.strip('[]').split(','):
-            if semtype not in anSemTypeList[index]:
-                #Create a list of unique semantic types per annotation
-                anSemTypeList[index].append(semtype)
-    
+        if isinstance(concept, ConceptMMI):
+            for semtype in concept.semtypes.strip('[]').split(','):
+                if semtype not in anSemTypeList[index]:
+                    #Create a list of unique semantic types per annotation
+                    anSemTypeList[index].append(semtype)
+        
     return anSemTypeList
