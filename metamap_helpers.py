@@ -3,7 +3,7 @@ metamap_helpers.py
 Scope: Helper functions for interacting with metamap
 Authors: Evan French
 """
-import pymetamap import MetaMap
+from pymetamap import MetaMap
 from classes import Annotation
 
 #Author: Evan French
