@@ -90,15 +90,21 @@ def ProcessAnnotations(metamap_path, ann_path, silver_ann_path, save_failed = Fa
 		os.makedirs(failed_path)
 
 	#Iterate over documents in the ann_path directory
-	for document in [f for f in os.listdir() if os.path.isfile(f)]:
+	onlyFiles = [f for f in os.listdir() if os.path.isfile(f)]
+	current = 0
+	fileCount = len(onlyFiles)
+	for document in onlyFiles:
 
 		#Strip the extension from the file to get the document name
 		docName = os.path.splitext(document)[0]
-			
+		current += 1
+		print(f'Processing document {current}/{fileCount}, {document}')		
+
 		#Instantiate a list to hold Annotations for each document
 		annotationList = []
 		silverList = []
 		failedList = []
+		ambiguousList = []
 
 		#Create an Annotation object for each line in the document and append the concepts to a list
 		doc = open(document, "r")  
@@ -106,11 +112,11 @@ def ProcessAnnotations(metamap_path, ann_path, silver_ann_path, save_failed = Fa
 			an = Annotation(line)
 			annotationList.append(an)
 		doc.close()
-		
+
 		#Run pymetamap over annotations and return semantic types
 		annotated_concepts = [a.concept for a in annotationList]
 		mmSemTypes = metamap_helpers.GetMetaMapSemanticTypes(metamap_path, annotated_concepts)
-		
+
 		#Check MetaMap prediction vs annotation label
 		for ix, annotation in enumerate(annotationList):
 			isSilver, prediction = metamap_helpers.CheckAnnotationAgainstSemTypes(annotation, mmSemTypes[ix])
@@ -118,6 +124,8 @@ def ProcessAnnotations(metamap_path, ann_path, silver_ann_path, save_failed = Fa
 			#If metamap and annotation file agree, add to silver standard list
 			if isSilver:
 				silverList.append(annotation.original)
+			elif prediction == 'none':
+				ambiguousList.append(annotation.original)
 			elif save_failed:
 				failedList.append(prediction + ' ' + annotation.original)
 		
@@ -129,18 +137,24 @@ def ProcessAnnotations(metamap_path, ann_path, silver_ann_path, save_failed = Fa
 
 		#Write non-silver annotations to a new file if save_failed = True
 		if save_failed:
-			new_failed_file = os.path.join(failed_path, docName + ".con")
+			new_failed_file = os.path.join(failed_path, docName + "_incorrect.con")
 			with open(new_failed_file, 'w') as f:
 				for item in failedList:
+					f.write(item)
+			new_ambiguous_file = os.path.join(failed_path, docName + "_ambiguous.con")
+			with open(new_ambiguous_file, 'w') as f:
+				for item in ambiguousList:
 					f.write(item)
 	
 		#Evaluation metrics
 		totalAnnotations += len(annotationList)
 		totalSilver += len(silverList)
+		totalAmbiguous += len(ambiguousList)
 		totalIncorrect += len(failedList)
 
 	print("Total Annotations: ", str(totalAnnotations))
 	print("Total Silver: ", str(totalSilver), str(totalSilver/totalAnnotations))
+	print("Total Ambiguous: ", str(totalAmbiguous), str(totalAmbiguous/totalAnnotations))
 	print("Total Incorrect: ", str(totalIncorrect), str(totalIncorrect/totalAnnotations))
 	
 	#Return to the original directory

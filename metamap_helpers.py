@@ -9,36 +9,46 @@ from classes import Annotation
 #Author: Evan French
 #MetaMap semantic types corresponding to medical problems
 problems = [
-    'acab', #Acquired Abnormality
-    'cgab', #Congenital Abnormality
-    'dsyn', #Disease or Syndrome
-    'fndg', #finding
-    'inpo', #Injury or Poisoning
-    'mobd', #Mental or Behavioral Dysfunction
-    'neop', #Neoplastic Process
-    'patf', #Pathologic Function
-    'sosy', #Sign or Symptom
+'amph', #Amphibian
+'famg', #Family Group
+'ffas', #Fully Formed Anatomical Structure
+'orgm', #Organism
+'humn', #Human
+'rnlw', #Regulation or Law
+'nusq', #Nucleotide Sequence
+'eehu', #Environmental Effect of Humans
+'sosy', #Sign or Symptom
+'patf', #Pathologic Function
+'dsyn', #Disease or Syndrome
+'inpo', #Injury or Poisoning
+'bact', #Bacterium
+'gora', #Governmental or Regulatory Activity
+'grpa', #Group Attribute
+'anab', #Anatomical Abnormality
+'neop', #Neoplastic Process
+'cgab', #Congenital Abnormality
 ]
 
 #Author: Evan French
 #MetaMap semantic types corresponding to medical tests
 tests = [
-    'bacs', #Biologically Active Substance
-    'diap', #Diagnostic Procedure
-    'elii', #Element, Ion, or Isotope
-    'lbpr', #Laboratory Procedure
-    'lbtr', #Laboratory or Test Result
-    'irda', #Indicator, Reagent, or Diagnostic Aid
-    'resa', #Research Activity
+'mbrt', #Molecular Biology Research Technique
+'lbpr', #Laboratory Procedure
+'diap', #Diagnostic Procedure
 ]
 
 #Author: Evan French
 #MetaMap semantic types corresponding to medical treatments
 treatments = [
-    'antb', #Antibiotic
-    'clnd', #Clinical Drug
-    'phsu', #Pharmacologic Substance
-    'topp', #Therapeutic or Preventive Procedure
+'clnd', #Clinical Drug
+'drdd', #Drug Delivery Device
+'edac', #Educational Activity
+'shro', #Self-help or Relief Organization
+'amas', #Amino Acid Sequence
+'antb', #Antibiotic
+'mcha', #Machine Activity
+'lang', #Language
+'horm', #Hormone
 ]
 
 #Author: Evan French
@@ -74,8 +84,8 @@ def CheckAnnotationAgainstSemTypes(annotation, semTypes):
     @return: True if the labels match and label is not 'none', false otherwise
     """
     mm_label = GetMetamapLabel(semTypes)
-    isGold = mm_label != 'none' and annotation.label == mm_label
-    return isGold, mm_label
+    isSilver = mm_label != 'none' and annotation.label == mm_label
+    return isSilver, mm_label
 
 #Author: Evan French
 def GetMetaMapSemanticTypes(metamap_path, annotations):
