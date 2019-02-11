@@ -7,34 +7,20 @@ from pymetamap import MetaMap, ConceptMMI
 from classes import Annotation
 
 #Author: Evan French
-#MetaMap semantic types corresponding to medical problems
-problems = [
-'amph', #Amphibian
-'famg', #Family Group
-'ffas', #Fully Formed Anatomical Structure
-'orgm', #Organism
-'humn', #Human
-'rnlw', #Regulation or Law
-'nusq', #Nucleotide Sequence
-'eehu', #Environmental Effect of Humans
-'sosy', #Sign or Symptom
-'patf', #Pathologic Function
-'dsyn', #Disease or Syndrome
-'inpo', #Injury or Poisoning
-'bact', #Bacterium
-'gora', #Governmental or Regulatory Activity
-'grpa', #Group Attribute
-'anab', #Anatomical Abnormality
-'neop', #Neoplastic Process
-'cgab', #Congenital Abnormality
-]
-
-#Author: Evan French
 #MetaMap semantic types corresponding to medical tests
 tests = [
+'amas', #Amino Acid Sequence
 'mbrt', #Molecular Biology Research Technique
+'edac', #Educational Activity
+'irda', #Indicator, Reagent, or Diagnostic Aid
+'ffas', #Fully Formed Anatomical Structure
+'ocdi', #Occupation or Discipline
+'elii', #Element, Ion, or Isotope
+'enty', #Entity
+'comd', #Cell or Molecular Dysfunction
+'vita', #Vitamin
+'nnon', #Nucleic Acid, Nucleoside, or Nucleotide
 'lbpr', #Laboratory Procedure
-'diap', #Diagnostic Procedure
 ]
 
 #Author: Evan French
@@ -42,13 +28,43 @@ tests = [
 treatments = [
 'clnd', #Clinical Drug
 'drdd', #Drug Delivery Device
-'edac', #Educational Activity
-'shro', #Self-help or Relief Organization
-'amas', #Amino Acid Sequence
-'antb', #Antibiotic
+'orgt', #Organization
+'bodm', #Biomedical or Dental Material
 'mcha', #Machine Activity
+'food', #Food
+'hcpp', #Human-caused Phenomenon or Process
+'tisu', #Tissue
+'topp', #Therapeutic or Preventive Procedure
+'genf', #Genetic Function
+'antb', #Antibiotic
+'medd', #Medical Device
+'acty', #Activity
+'bdsu', #Body Substance
+'bsoj', #Body Space or Junction
+'bpoc', #Body Part, Organ, or Organ Component
+'popg', #Population Group
+'orgf', #Organism Function
+'plnt', #Plant
+'biof', #Biologic Function
+'mamm', #Mammal
+'blor', #Body Location or Region
+'spco', #Spatial Concept
+'anst', #Anatomical Structure
+'gora', #Governmental or Regulatory Activity
+'hlca', #Health Care Activity
+]
+
+#Author: Evan French
+#MetaMap semantic types corresponding to medical problems
+problems = [
+'grpa', #Group Attribute
+'amph', #Amphibian
+'mobd', #Mental or Behavioral Dysfunction
+'bhvr', #Behavior
+'aggp', #Age Group
+'inpo', #Injury or Poisoning
 'lang', #Language
-'horm', #Hormone
+'dsyn', #Disease or Syndrome
 ]
 
 #Author: Evan French
