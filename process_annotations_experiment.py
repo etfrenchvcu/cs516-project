@@ -23,11 +23,11 @@ def main():
         if opt in ("-m","--metamap"):
             metamap_path = arg
         elif opt in ("-a","--ann_path"):
-			ann_path = arg
-		elif opt in ("-o","-- output_path"):
-			output_path = arg
-		elif opt in ("-t","--min_threshold"):
-            min_threshold = arg
+            ann_path = arg
+        elif opt in ("-o","-- output_path"):
+            output_path = arg
+        elif opt in ("-t","--min_threshold"):
+            min_threshold = float(arg)
         elif opt in ("-h","--help"):
             printHelp()
             return
@@ -42,20 +42,20 @@ def main():
     if  output_path == None:
         print("You must specify a directory in which the results should be output with -g or -- output_path.")
         return
-	if min_threshold == None:
+    if min_threshold == None:
         print("You must specify a minimum threshold with -t or --min_threshold.")
         return
 
-	#Cartesian product of possible thresholds incrementing by 0.05
-	thresholds = [x / 100 for x in range(int(min_threshold * 100), 100, 5)]
-	tTests, tTreatments, tProblems = thresholds, thresholds, thresholds
-	for tTest, tTreatment, tProblem in itertools.product(tTests, tTreatments, tProblems):
-		#Generate semantic type list for each label's threshold
-		GenerateSemanticTypeLists(tTest, tTreatment, tProblem, list_path)
-		
-		#Process annotations with the list generated
-		ProcessAnnotations(metamap_path, ann_path, output_path, tTest, tTreatment, tProblem)
-		break
+    #Cartesian product of possible thresholds incrementing by 0.05
+    thresholds = [x / 100 for x in range(int(min_threshold * 100), 100, 5)]
+    tTests, tTreatments, tProblems = thresholds, thresholds, thresholds
+    for tTest, tTreatment, tProblem in itertools.product(tTests, tTreatments, tProblems):
+        #Generate semantic type list for each label's threshold
+        GenerateSemanticTypeLists(tTest, tTreatment, tProblem, "semantic_type_lists.py")
+        
+        #Process annotations with the list generated
+        ProcessAnnotations(metamap_path, ann_path, output_path, tTest, tTreatment, tProblem)
+        break
 
 #Author: Evan French
 def ProcessAnnotations(metamap_path, ann_path, output_path, tTest, tTreatment, tProblem):
@@ -80,17 +80,20 @@ def ProcessAnnotations(metamap_path, ann_path, output_path, tTest, tTreatment, t
 	current = 0
 	fileCount = len(onlyFiles)
 	for document in onlyFiles:
-		#Strip the extension from the file to get the document name
-		docName = os.path.splitext(document)[0]
-		current += 1
-		print(f'Processing document {current}/{fileCount}, {document}')			
+            #Strip the extension from the file to get the document name
+	    docName = os.path.splitext(document)[0]
+	    current += 1
+            print(f'Processing document {current}/{fileCount}, {document}')
 
-		#Create an Annotation object for each line in the document and append the concepts to a list
-		doc = open(document, "r")  
-		for line in doc.readlines():
-			an = Annotation(line)
-			annotationList.append(an)
-		doc.close()
+            with open(document, 'r') as doc:
+                annotationList = []
+
+                #Create an Annotation object for each line in the document and append the concepts to a list
+                with open(document, 'r') as doc:
+                    annotationList = []
+                    for line in doc.readlines():
+                        an = Annotation(line)
+		        annotationList.append(an)
 
 		#Run pymetamap over annotations and return semantic types
 		annotated_concepts = [a.concept for a in annotationList]
@@ -149,7 +152,7 @@ def GenerateSemanticTypeLists(tTest, tTreatment, tProblem, list_path):
     problems = []
 
     with open('output.txt','r') as f:
-        reader = csv.DictReader(f, delimiter=' ')
+        reader = csv.DictReader(f, delimiter='\t')
 
         for row in reader:
             s = SemanticType()
