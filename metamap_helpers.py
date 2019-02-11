@@ -68,7 +68,7 @@ problems = [
 ]
 
 #Author: Evan French
-def GetMetamapLabel(semTypeList):
+def GetMetamapLabel(semTypeList, testList = None, treatmentList = None, problemList = None):
     """
     Returns a predicted label for the list of MetaMap semantic types.
     All semantic types in the input list must be in a single 'master' list (see problems, tests, treatments above) 
@@ -77,21 +77,26 @@ def GetMetamapLabel(semTypeList):
     @param semTypeList: list of sematic type abbreviations
     @return: predicted label (problem, test, treatment, or none)
     """
+    # Use parameters if provided, otherwise default to hardcodes
+    testList = testList if testList != None else tests
+    treatmentList = treatmentList if treatmentList != None else treatments
+    problemList = problemList if problemList != None else problems
+
     #Default label is 'none'
     label = "none"
     
     semTypeSet = set(semTypeList)
 
-    if not semTypeSet.isdisjoint(problems) and semTypeSet.isdisjoint(tests) and semTypeSet.isdisjoint(treatments):
+    if not semTypeSet.isdisjoint(problemList) and semTypeSet.isdisjoint(testList) and semTypeSet.isdisjoint(treatmentList):
         label = "problem"
-    elif semTypeSet.isdisjoint(problems) and not semTypeSet.isdisjoint(tests) and semTypeSet.isdisjoint(treatments):
+    elif semTypeSet.isdisjoint(problemList) and not semTypeSet.isdisjoint(testList) and semTypeSet.isdisjoint(treatmentList):
         label = "test"
-    elif semTypeSet.isdisjoint(problems) and semTypeSet.isdisjoint(tests) and not semTypeSet.isdisjoint(treatments):
+    elif semTypeSet.isdisjoint(problemList) and semTypeSet.isdisjoint(testList) and not semTypeSet.isdisjoint(treatmentList):
         label = "treatment"
         
     return label
 
-def CheckAnnotationAgainstSemTypes(annotation, semTypes):
+def CheckAnnotationAgainstSemTypes(annotation, semTypes, testList = None, treatmentList = None, problemList = None):
     """
     Checks if the label on an annoation matches the predicted label from list of semantic types.
 
@@ -99,7 +104,7 @@ def CheckAnnotationAgainstSemTypes(annotation, semTypes):
     @param semTypes: List of semantic types abbreviations
     @return: True if the labels match and label is not 'none', false otherwise
     """
-    mm_label = GetMetamapLabel(semTypes)
+    mm_label = GetMetamapLabel(semTypes, testList, treatmentList, problemList)
     isSilver = mm_label != 'none' and annotation.label == mm_label
     return isSilver, mm_label
 

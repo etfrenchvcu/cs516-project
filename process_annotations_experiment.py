@@ -9,7 +9,6 @@ import getopt
 import os
 import re
 import metamap_helpers
-import semantic_type_lists
 import csv
 import itertools
 from classes import Annotation
@@ -50,7 +49,7 @@ def main():
     if min_threshold == None:
         print("You must specify a minimum threshold with -t or --min_threshold.")
         return
-    
+
     # Create output directory
     if not os.path.exists(output_path):
         os.makedirs(output_path)
@@ -59,24 +58,25 @@ def main():
     output_file = os.path.join(output_path, 'exp_results.txt')
     with open(output_file, 'w+', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow(['Thresholds', 'Label', 'Silver', 'Ambiguous', 'Incorrect'])
+        writer.writerow(['Thresholds', 'Label', 'Silver',
+                         'Ambiguous', 'Incorrect'])
 
     # Cartesian product of possible thresholds incrementing by 0.05
     thresholds = [x / 100 for x in range(int(min_threshold * 100), 100, 5)]
     tTests, tTreatments, tProblems = thresholds, thresholds, thresholds
     for tTest, tTreatment, tProblem in itertools.product(tTests, tTreatments, tProblems):
         # Generate semantic type list for each label's threshold
-        GenerateSemanticTypeLists(
+        tests, treatments, problems = GenerateSemanticTypeLists(
             tTest, tTreatment, tProblem, "semantic_type_lists.py")
 
         # Process annotations with the list generated
         ProcessAnnotations(metamap_path, ann_path,
-                           output_path, tTest, tTreatment, tProblem)
+                           output_path, tTest, tTreatment, tProblem, tests, treatments, problems)
 
 # Author: Evan French
 
 
-def ProcessAnnotations(metamap_path, ann_path, output_path, tTest, tTreatment, tProblem):
+def ProcessAnnotations(metamap_path, ann_path, output_path, tTest, tTreatment, tProblem, tests, treatments, problems):
     """
     Uses MetaMap to corroborate annotations. Annotations where the label on the annotation
     and the label predicted by MetaMap are in agreement are saved to a file with the same name
@@ -116,7 +116,7 @@ def ProcessAnnotations(metamap_path, ann_path, output_path, tTest, tTreatment, t
         # Check MetaMap prediction vs annotation label
         for ix, annotation in enumerate(annotationList):
             isSilver, prediction = metamap_helpers.CheckAnnotationAgainstSemTypes(
-                annotation, mmSemTypes[ix])
+                annotation, mmSemTypes[ix], tests, treatments, problems)
 
             # Instantiate lists for each label type
             if annotation.label not in labelDict:
@@ -138,7 +138,8 @@ def ProcessAnnotations(metamap_path, ann_path, output_path, tTest, tTreatment, t
                 labelDict[annotation.label]['ambiguousList'].append(
                     annotation.original)
             else:
-                labelDict[annotation.label]['failedList'].append(annotation.original)
+                labelDict[annotation.label]['failedList'].append(
+                    annotation.original)
 
     # Return to the original directory
     os.chdir(cwd)
@@ -216,6 +217,8 @@ def GenerateSemanticTypeLists(tTest, tTreatment, tProblem, list_path):
         for x in sorted(problems, key=lambda x: x.pProblems, reverse=True):
             f.write('%s\n' % (str(x)))
         f.write(']')
+
+    return tests, treatments, problems
 
 # Author: Evan French
 
