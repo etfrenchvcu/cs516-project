@@ -50,6 +50,16 @@ def main():
     if min_threshold == None:
         print("You must specify a minimum threshold with -t or --min_threshold.")
         return
+    
+    # Create output directory
+    if not os.path.exists(output_path):
+        os.makedirs(output_path)
+
+    # Initialize output file
+    output_file = os.path.join(output_path, 'exp_results.txt')
+    with open(output_file, 'w+', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(['Thresholds', 'Label', 'Silver', 'Ambiguous', 'Incorrect'])
 
     # Cartesian product of possible thresholds incrementing by 0.05
     thresholds = [x / 100 for x in range(int(min_threshold * 100), 100, 5)]
@@ -62,7 +72,6 @@ def main():
         # Process annotations with the list generated
         ProcessAnnotations(metamap_path, ann_path,
                            output_path, tTest, tTreatment, tProblem)
-        break
 
 # Author: Evan French
 
@@ -118,7 +127,7 @@ def ProcessAnnotations(metamap_path, ann_path, output_path, tTest, tTreatment, t
                 labelDict[annotation.label]['ambiguousList'] = []
 
             # Track totals per label
-            labelDict[annotation.label].annotationList.append(
+            labelDict[annotation.label]['annotationList'].append(
                 annotation.original)
 
             # If metamap and annotation file agree, add to silver standard list
@@ -128,13 +137,11 @@ def ProcessAnnotations(metamap_path, ann_path, output_path, tTest, tTreatment, t
             elif prediction == 'none':
                 labelDict[annotation.label]['ambiguousList'].append(
                     annotation.original)
+            else:
+                labelDict[annotation.label]['failedList'].append(annotation.original)
 
     # Return to the original directory
     os.chdir(cwd)
-
-    # Write results of each experiment to CSV output file
-    if not os.path.exists(output_path):
-        os.makedirs(output_path)
 
     print("Thresholds: ", tTest, tTreatment, tProblem)
     for key in labelDict:
@@ -153,7 +160,7 @@ def ProcessAnnotations(metamap_path, ann_path, output_path, tTest, tTreatment, t
         with open(output_file, 'a+', newline='') as f:
             writer = csv.writer(f)
             thresholds = str([tTest, tTreatment, tProblem])
-            writer.writerow(thresholds, key, silver, ambiguous, incorrect)
+            writer.writerow([thresholds, key, silver, ambiguous, incorrect])
 
 # Parameters are thresholds for each label type
 

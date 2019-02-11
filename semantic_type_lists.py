@@ -13,6 +13,10 @@ tests = [
 'vita', #Vitamin
 'nnon', #Nucleic Acid, Nucleoside, or Nucleotide
 'lbpr', #Laboratory Procedure
+'bacs', #Biologically Active Substance
+'famg', #Family Group
+'resa', #Research Activity
+'lbtr', #Laboratory or Test Result
 ]
 #Author: Evan French
 #MetaMap semantic types corresponding to medical treatments
@@ -43,6 +47,10 @@ treatments = [
 'anst', #Anatomical Structure
 'gora', #Governmental or Regulatory Activity
 'hlca', #Health Care Activity
+'mnob', #Manufactured Object
+'menp', #Mental Process
+'socb', #Social Behavior
+'phpr', #Phenomenon or Process
 ]
 #Author: Evan French
 #MetaMap semantic types corresponding to medical problems
@@ -50,9 +58,4 @@ problems = [
 'grpa', #Group Attribute
 'amph', #Amphibian
 'mobd', #Mental or Behavioral Dysfunction
-'bhvr', #Behavior
-'aggp', #Age Group
-'inpo', #Injury or Poisoning
-'lang', #Language
-'dsyn', #Disease or Syndrome
 ]
