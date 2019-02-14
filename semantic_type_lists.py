@@ -35,22 +35,6 @@ treatments = [
 'medd', #Medical Device
 'acty', #Activity
 'bdsu', #Body Substance
-'bsoj', #Body Space or Junction
-'bpoc', #Body Part, Organ, or Organ Component
-'popg', #Population Group
-'orgf', #Organism Function
-'plnt', #Plant
-'biof', #Biologic Function
-'mamm', #Mammal
-'blor', #Body Location or Region
-'spco', #Spatial Concept
-'anst', #Anatomical Structure
-'gora', #Governmental or Regulatory Activity
-'hlca', #Health Care Activity
-'mnob', #Manufactured Object
-'menp', #Mental Process
-'socb', #Social Behavior
-'phpr', #Phenomenon or Process
 ]
 #Author: Evan French
 #MetaMap semantic types corresponding to medical problems
@@ -58,4 +42,12 @@ problems = [
 'grpa', #Group Attribute
 'amph', #Amphibian
 'mobd', #Mental or Behavioral Dysfunction
+'bhvr', #Behavior
+'aggp', #Age Group
+'inpo', #Injury or Poisoning
+'lang', #Language
+'dsyn', #Disease or Syndrome
+'sosy', #Sign or Symptom
+'evnt', #Event
+'chem', #Chemical
 ]
