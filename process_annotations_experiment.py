@@ -62,13 +62,13 @@ def main():
                          'Ambiguous', 'Incorrect'])
 
     # Cartesian product of possible thresholds incrementing by 0.05
-    thresholds = [x / 100 for x in range(int(min_threshold * 100), 100, 5)]
+    thresholds = [x / 100 for x in range(int(min_threshold * 100), 101, 5)]
     tTests, tTreatments, tProblems = thresholds, thresholds, thresholds
     for tTest, tTreatment, tProblem in itertools.product(tTests, tTreatments, tProblems):
         # Generate semantic type list for each label's threshold
         tests, treatments, problems = GenerateSemanticTypeLists(
             tTest, tTreatment, tProblem, "semantic_type_lists.py")
-
+        
         # Process annotations with the list generated
         ProcessAnnotations(metamap_path, ann_path,
                            output_path, tTest, tTreatment, tProblem, tests, treatments, problems)
@@ -218,7 +218,7 @@ def GenerateSemanticTypeLists(tTest, tTreatment, tProblem, list_path):
             f.write('%s\n' % (str(x)))
         f.write(']')
 
-    return tests, treatments, problems
+    return [x.attr for x in tests], [x.attr for x in treatments], [x.attr for x in problems]
 
 # Author: Evan French
 
