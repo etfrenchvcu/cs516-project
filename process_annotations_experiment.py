@@ -58,16 +58,20 @@ def main():
     output_file = os.path.join(output_path, 'exp_results.txt')
     with open(output_file, 'w+', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow(['Thresholds', 'Label', 'Silver',
-                         'Ambiguous', 'Incorrect'])
+        writer.writerow([
+            'All Total', 'All Silver', 'All Ambiguous', 'All Incorrect'
+            'Problem Total', 'Problem Silver', 'Problem Ambiguous', 'Problem Incorrect'
+            'Test Total', 'Test Silver', 'Test Ambiguous', 'Test Incorrect'
+            'Treatment Total', 'Treatment Silver', 'Treatment Ambiguous', 'Treatment Incorrect'])
 
+        writer.writerow([total, silver, ambiguous, incorrect, pTotal, pSilver, pAmbiguous, pIncorrect, teTotal, teSilver, teAmbiguous, teIncorrect, trTotal, trSilver, trAmbiguous, trIncorrect])
     # Cartesian product of possible thresholds incrementing by 0.05
-    thresholds = [x / 100 for x in range(int(min_threshold * 100), 101, 5)]
+    thresholds = [x / 100 for x in range(int(min_threshold * 100), 100, 5)]
     tTests, tTreatments, tProblems = thresholds, thresholds, thresholds
     for tTest, tTreatment, tProblem in itertools.product(tTests, tTreatments, tProblems):
         # Generate semantic type list for each label's threshold
         tests, treatments, problems = GenerateSemanticTypeLists(
-            tTest, tTreatment, tProblem, "semantic_type_lists.py")
+            tTest, tTreatment, tProblem, output_path, 'output.txt')
         
         # Process annotations with the list generated
         ProcessAnnotations(metamap_path, ann_path,
@@ -144,34 +148,40 @@ def ProcessAnnotations(metamap_path, ann_path, output_path, tTest, tTreatment, t
     # Return to the original directory
     os.chdir(cwd)
 
-    print("Thresholds: ", tTest, tTreatment, tProblem)
-    for key in labelDict:
-        total = len(labelDict[key]['annotationList'])
-        silver = len(labelDict[key]['silverList'])
-        ambiguous = len(labelDict[key]['ambiguousList'])
-        incorrect = len(labelDict[key]['failedList'])
+    pTotal = len(labelDict['problem']['annotationList'])
+    pSilver = len(labelDict['problem']['silverList'])
+    pAmbiguous = len(labelDict['problem']['ambiguousList'])
+    pIncorrect = len(labelDict['problem']['failedList'])
+    
+    teTotal = len(labelDict['test']['annotationList'])
+    teSilver = len(labelDict['test']['silverList'])
+    teAmbiguous = len(labelDict['test']['ambiguousList'])
+    teIncorrect = len(labelDict['test']['failedList'])
+    
+    trTotal = len(labelDict['treatment']['annotationList'])
+    trSilver = len(labelDict['treatment']['silverList'])
+    trAmbiguous = len(labelDict['treatment']['ambiguousList'])
+    trIncorrect = len(labelDict['treatment']['failedList'])
 
-        print(key)
-        print("Total: ", total)
-        print("Silver: ", silver)
-        print("Ambiguous: ", ambiguous)
-        print("Incorrect: ", incorrect)
+    total = pTotal + teTotal + trTotal
+    silver = pSilver + teSilver + trSilver
+    ambiguous = pAmbiguous + teAmbiguous + trAmbiguous
+    incorrect = pIncorrect + teIncorrect + trIncorrect
 
-        output_file = os.path.join(output_path, 'exp_results.txt')
-        with open(output_file, 'a+', newline='') as f:
-            writer = csv.writer(f)
-            thresholds = str([tTest, tTreatment, tProblem])
-            writer.writerow([thresholds, key, silver, ambiguous, incorrect])
+    output_file = os.path.join(output_path, 'exp_results.txt')
+    with open(output_file, 'a+', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow([total, silver, ambiguous, incorrect, pTotal, pSilver, pAmbiguous, pIncorrect, teTotal, teSilver, teAmbiguous, teIncorrect, trTotal, trSilver, trAmbiguous, trIncorrect])
 
 # Parameters are thresholds for each label type
 
 
-def GenerateSemanticTypeLists(tTest, tTreatment, tProblem, list_path):
+def GenerateSemanticTypeLists(tTest, tTreatment, tProblem, list_path, semantic_type_count_file):
     tests = []
     treatments = []
     problems = []
 
-    with open('output.txt', 'r') as f:
+    with open(semantic_type_count_file, 'r') as f:
         reader = csv.DictReader(f, delimiter='\t')
 
         for row in reader:
@@ -196,7 +206,9 @@ def GenerateSemanticTypeLists(tTest, tTreatment, tProblem, list_path):
             elif (s.problems == max(s.tests, s.treatments, s.problems) and s.pProblems >= tProblem):
                 problems.append(s)
 
-    with open(list_path, 'w+') as f:
+    list_file_name = str(tTest*100) + '_' + str(tTreatment) + '_' + str(tProblem) + '.txt'
+    list_output_file = os.path.join(list_output_path, list_file_name)
+    with open(list_output_file, 'w+') as f:
         f.write('#Author: Evan French\n')
         f.write('#MetaMap semantic types corresponding to medical tests\n')
         f.write('tests = [\n')
