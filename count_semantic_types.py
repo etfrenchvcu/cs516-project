@@ -29,7 +29,7 @@ def main():
         elif opt in ("-o", "--output"):
             output_dir = arg
         elif opt in ("-s", "--sample_size"):
-            sample_size = arg
+            sample_size = int(arg)
 
     # Verify if needed command line entries are present.
     if metamap_path == None:
@@ -59,11 +59,9 @@ def main():
         metamap_path, treatment_file, output_dir, semTypeDict, 'treatment', sample_size)
     semTypeDict = ProcessFile(
         metamap_path, problem_file, output_dir, semTypeDict, 'problem', sample_size)
-    print(semTypeDict)
 
     # Write output to a new file
     output = os.path.join(output_dir, "output.txt")
-    print(output)
     with open(output, 'w+') as f:
         f.write('semantictype\ttest\ttreatment\tproblem\n')
         for key, value in semTypeDict.items():
