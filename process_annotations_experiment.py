@@ -18,11 +18,11 @@ def main():
     """
         Main function of the application. Call -h or --help for command line inputs.
         """
-    metamap_path, ann_path,  output_path, = None, None, None
+    metamap_path, ann_path, output_path, min_threshold, sem_counts_file  = None, None, None, None, None
 
     # Process command line entries.
-    opts, args = getopt.getopt(sys.argv[1:], 'm:a:o:t:h', [
-                               "metamap=", "ann_path=", " output_path=", "min_threshold=", "help"])
+    opts, args = getopt.getopt(sys.argv[1:], 'm:a:o:t:s:h', [
+                               "metamap=", "ann_path=", "output_path=", "min_threshold=", "sem_counts_file=", "help"])
     for opt, arg, in opts:
         if opt in ("-m", "--metamap"):
             metamap_path = arg
@@ -32,6 +32,8 @@ def main():
             output_path = arg
         elif opt in ("-t", "--min_threshold"):
             min_threshold = float(arg)
+        elif opt in ("-s", "--sem_counts_file"):
+            sem_counts_file = arg
         elif opt in ("-h", "--help"):
             printHelp()
             return
@@ -49,6 +51,9 @@ def main():
     if min_threshold == None:
         print("You must specify a minimum threshold with -t or --min_threshold.")
         return
+    if sem_counts_file == None:
+        print("You must specify a semantic type count file with -s or --sem_counts_file.")
+        return
 
     # Create output directory
     if not os.path.exists(output_path):
@@ -59,19 +64,19 @@ def main():
     with open(output_file, 'w+', newline='') as f:
         writer = csv.writer(f)
         writer.writerow([
-            'All Total', 'All Silver', 'All Ambiguous', 'All Incorrect'
-            'Problem Total', 'Problem Silver', 'Problem Ambiguous', 'Problem Incorrect'
-            'Test Total', 'Test Silver', 'Test Ambiguous', 'Test Incorrect'
+            'Problem Threshold', 'Test Threshold', 'Treatment Threshold',
+            'All Total', 'All Silver', 'All Ambiguous', 'All Incorrect',
+            'Problem Total', 'Problem Silver', 'Problem Ambiguous', 'Problem Incorrect',
+            'Test Total', 'Test Silver', 'Test Ambiguous', 'Test Incorrect',
             'Treatment Total', 'Treatment Silver', 'Treatment Ambiguous', 'Treatment Incorrect'])
 
-        writer.writerow([total, silver, ambiguous, incorrect, pTotal, pSilver, pAmbiguous, pIncorrect, teTotal, teSilver, teAmbiguous, teIncorrect, trTotal, trSilver, trAmbiguous, trIncorrect])
     # Cartesian product of possible thresholds incrementing by 0.05
     thresholds = [x / 100 for x in range(int(min_threshold * 100), 100, 5)]
     tTests, tTreatments, tProblems = thresholds, thresholds, thresholds
     for tTest, tTreatment, tProblem in itertools.product(tTests, tTreatments, tProblems):
         # Generate semantic type list for each label's threshold
         tests, treatments, problems = GenerateSemanticTypeLists(
-            tTest, tTreatment, tProblem, output_path, 'output.txt')
+            tTest, tTreatment, tProblem, output_path, sem_counts_file)
         
         # Process annotations with the list generated
         ProcessAnnotations(metamap_path, ann_path,
@@ -171,12 +176,12 @@ def ProcessAnnotations(metamap_path, ann_path, output_path, tTest, tTreatment, t
     output_file = os.path.join(output_path, 'exp_results.txt')
     with open(output_file, 'a+', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow([total, silver, ambiguous, incorrect, pTotal, pSilver, pAmbiguous, pIncorrect, teTotal, teSilver, teAmbiguous, teIncorrect, trTotal, trSilver, trAmbiguous, trIncorrect])
+        writer.writerow([tProblem, tTest, tTreatment, total, silver, ambiguous, incorrect, pTotal, pSilver, pAmbiguous, pIncorrect, teTotal, teSilver, teAmbiguous, teIncorrect, trTotal, trSilver, trAmbiguous, trIncorrect])
 
 # Parameters are thresholds for each label type
 
 
-def GenerateSemanticTypeLists(tTest, tTreatment, tProblem, list_path, semantic_type_count_file):
+def GenerateSemanticTypeLists(tTest, tTreatment, tProblem, output_path, semantic_type_count_file):
     tests = []
     treatments = []
     problems = []
@@ -206,8 +211,8 @@ def GenerateSemanticTypeLists(tTest, tTreatment, tProblem, list_path, semantic_t
             elif (s.problems == max(s.tests, s.treatments, s.problems) and s.pProblems >= tProblem):
                 problems.append(s)
 
-    list_file_name = str(tTest*100) + '_' + str(tTreatment) + '_' + str(tProblem) + '.txt'
-    list_output_file = os.path.join(list_output_path, list_file_name)
+    list_file_name = 'p' + str(tProblem) + '_te' + str(tTest) + '_tr' + str(tTreatment) + '.txt'
+    list_output_file = os.path.join(output_path, list_file_name)
     with open(list_output_file, 'w+') as f:
         f.write('#Author: Evan French\n')
         f.write('#MetaMap semantic types corresponding to medical tests\n')
