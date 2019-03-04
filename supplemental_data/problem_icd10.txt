@@ -119,7 +119,7 @@ lepromatous leprosy
 leprosy
 pulmonary mycobacterial infection
 cutaneous mycobacterial infection
-disseminated mycobacterium avium-intracellulare complex (dmac)
+disseminated mycobacterium avium-intracellulare complex 
 mycobacterial infection
 cutaneous listeriosis
 listerial meningitis
@@ -228,7 +228,7 @@ symptomatic neurosyphilis
 tabes dorsalis
 syphilitic encephalitis
 syphilitic neuropathy
-charcot's arthropathy (tabetic)
+charcot's arthropathy 
 general paresis
 asymptomatic neurosyphilis
 neurosyphilis
@@ -253,7 +253,7 @@ gonococcal heart infection
 gonococcal pneumonia
 gonococcal peritonitis
 gonococcal sepsis
-chlamydial lymphogranuloma (venereum)
+chlamydial lymphogranuloma 
 chlamydial infection
 chlamydial cystitis and urethritis
 chlamydial vulvovaginitis
@@ -270,7 +270,7 @@ herpesviral infection
 herpesviral cervicitis
 herpesviral vulvovaginitis
 anogenital herpesviral infection
-anogenital (venereal) warts
+anogenital  warts
 nonvenereal syphilis
 initial lesions
 multiple papillomata and wet crab yaws
@@ -303,7 +303,7 @@ recrudescent typhus [brill's disease]
 typhus fever
 spotted fever
 ehrlichiosis
-ehrlichiosis chafeensis [e. chafeensis]
+ehrlichiosis chafeensis [e chafeensis]
 q fever
 trench fever
 rickettsialpox
@@ -430,7 +430,7 @@ human herpesvirus 6 infection
 human herpesvirus 7 infection
 hepatitis a
 hepatitis b
-delta-(super) infection
+delta- infection
 hepatitis c
 hepatitis e
 viral hepatitis
@@ -457,7 +457,7 @@ infectious mononucleosis
 keratoconjunctivitis
 conjunctivitis
 viral pharyngoconjunctivitis
-epidemic hemorrhagic conjunctivitis (enteroviral)
+epidemic hemorrhagic conjunctivitis 
 viral conjunctivitis
 epidemic myalgia
 ross river disease
@@ -467,7 +467,9 @@ viral myocarditis
 viral pericarditis
 viral cardiomyopathy
 retrovirus infections
-hantavirus (cardio)-pulmonary syndrome [hps] [hcps]
+hantavirus -pulmonary syndrome
+hps
+hcps
 adenovirus infection
 enterovirus infection
 coronavirus infection
@@ -567,7 +569,7 @@ gambiense trypanosomiasis
 rhodesiense trypanosomiasis
 african trypanosomiasis
 chagas' disease
-chagas' disease (chronic)
+chagas' disease 
 megaesophagus
 megacolon
 meningoencephalitis
@@ -657,15 +659,15 @@ enterococcus as the cause
 streptococcus pneumoniae as the cause
 methicillin susceptible staphylococcus aureus infection as the cause
 methicillin resistant staphylococcus aureus infection as the cause
-mycoplasma pneumoniae [m. pneumoniae] as the cause
-klebsiella pneumoniae [k. pneumoniae] as the cause
-shiga toxin-producing escherichia coli [e. coli] (stec) o157 as the cause
-hemophilus influenzae [h. influenzae] as the cause
-proteus (mirabilis) (morganii) as the cause
-pseudomonas (aeruginosa) (mallei) (pseudomallei) as the cause
-bacteroides fragilis [b. fragilis] as the cause
-clostridium perfringens [c. perfringens] as the cause
-helicobacter pylori [h. pylori] as the cause
+mycoplasma pneumoniae [m pneumoniae] as the cause
+klebsiella pneumoniae [k pneumoniae] as the cause
+shiga toxin-producing escherichia coli [e coli]  o157 as the cause
+hemophilus influenzae [h influenzae] as the cause
+proteus  as the cause
+pseudomonas  as the cause
+bacteroides fragilis [b fragilis] as the cause
+clostridium perfringens [c perfringens] as the cause
+helicobacter pylori [h pylori] as the cause
 vibrio vulnificus as the cause
 adenovirus as the cause
 coxsackievirus as the cause
@@ -699,7 +701,7 @@ malignant carcinoid tumors
 malignant poorly differentiated neuroendocrine tumors
 carcinoid tumors
 disseminated malignant neoplasm
-malignant (primary) neoplasm
+malignant  neoplasm
 malignant neoplasm associated
 nodular lymphocyte predominant hodgkin lymphoma
 nodular sclerosis hodgkin lymphoma
@@ -718,20 +720,20 @@ follicular lymphoma
 small cell b-cell lymphoma
 mantle cell lymphoma
 diffuse large b-cell lymphoma
-lymphoblastic (diffuse) lymphoma
+lymphoblastic  lymphoma
 burkitt lymphoma
-non-follicular (diffuse) lymphoma
+non-follicular  lymphoma
 mycosis fungoides
 sezary disease
 peripheral t-cell lymphoma
 anaplastic large cell lymphoma
 cutaneous t-cell lymphoma
 mature t/nk-cell lymphomas
-mediastinal (thymic) large b-cell lymphoma
+mediastinal  large b-cell lymphoma
 non-hodgkin lymphoma
 extranodal nk/t-cell lymphoma
 hepatosplenic t-cell lymphoma
-enteropathy-type (intestinal) t-cell lymphoma
+enteropathy-type  t-cell lymphoma
 subcutaneous panniculitis-like t-cell lymphoma
 blastic nk-cell lymphoma
 angioimmunoblastic t-cell lymphoma
@@ -749,7 +751,7 @@ lymphoblastic leukemia
 lymphocytic leukemia
 prolymphocytic leukemia
 hairy cell leukemia
-adult t-cell lymphoma/leukemia (htlv-1-associated)
+adult t-cell lymphoma/leukemia 
 mature b-cell leukemia burkitt-type
 lymphoid leukemia
 myeloblastic leukemia
@@ -767,7 +769,7 @@ mast cell leukemia
 panmyelosis
 myelodysplastic disease
 leukemia
-multifocal and multisystemic (disseminated) langerhans-cell histiocytosis
+multifocal and multisystemic  langerhans-cell histiocytosis
 malignant mast cell neoplasm
 aggressive systemic mastocytosis
 mast cell sarcoma
@@ -799,11 +801,11 @@ cutaneous mastocytosis
 systemic mastocytosis
 myeloproliferative disease
 monoclonal gammopathy
-essential (hemorrhagic) thrombocythemia
+essential  thrombocythemia
 osteomyelofibrosis
-post-transplant lymphoproliferative disorder (ptld)
+post-transplant lymphoproliferative disorder 
 castleman disease
-iron deficiency anemia to blood loss (chronic)
+iron deficiency anemia to blood loss 
 sideropenic dysphagia
 iron deficiency anemia
 vitamin b12 deficiency anemia
@@ -837,7 +839,7 @@ paroxysmal nocturnal hemoglobinuria [marchiafava-micheli]
 acquired hemolytic anemia
 acquired pure red cell aplasia
 transient acquired pure red cell aplasia
-constitutional (pure) red blood cell aplasia
+constitutional  red blood cell aplasia
 drug-induced aplastic anemia
 idiopathic aplastic anemia
 antineoplastic chemotherapy induced pancytopenia
@@ -879,8 +881,8 @@ genetic anomalies
 eosinophilia
 lymphocytopenia
 decreased white blood cell count
-lymphocytosis (symptomatic)
-monocytosis (symptomatic)
+lymphocytosis 
+monocytosis 
 plasmacytosis
 leukemoid reaction
 basophilia
@@ -900,7 +902,7 @@ methemoglobinemia
 familial erythrocytosis
 polycythemia
 myelofibrosis
-heparin induced thrombocytopenia (hit)
+heparin induced thrombocytopenia 
 hemophagocytic lymphohistiocytosis
 hemophagocytic syndrome
 intraoperative hemorrhage and hematoma
@@ -915,9 +917,9 @@ immunodeficiency
 antibody deficiency
 transient hypogammaglobulinemia
 severe combined immunodeficiency [scid]
-adenosine deaminase [ada] deficiency
+adenosine deaminase deficiency
 nezelof's syndrome
-purine nucleoside phosphorylase [pnp] deficiency
+purine nucleoside phosphorylase deficiency
 major histocompatibility complex class i deficiency
 major histocompatibility complex class ii deficiency
 biotinidase deficiency
@@ -925,10 +927,10 @@ biotin-dependent carboxylase deficiency
 combined immunodeficiency
 wiskott-aldrich syndrome
 di george's syndrome
-hyperimmunoglobulin e [ige] syndrome
+hyperimmunoglobulin e syndrome
 immunodeficiency associated
 common variable immunodeficiency
-lymphocyte function antigen-1 [lfa-1] defect
+lymphocyte function antigen-1 defect
 defects
 sarcoidosis
 sarcoid meningitis
@@ -949,9 +951,9 @@ graft-versus-host disease
 acute
 autoimmune lymphoproliferative syndrome [alps]
 congenital iodine-deficiency syndrome
-iodine-deficiency related diffuse (endemic) goiter
-iodine-deficiency related multinodular (endemic) goiter
-iodine-deficiency related (endemic) goiter
+iodine-deficiency related diffuse  goiter
+iodine-deficiency related multinodular  goiter
+iodine-deficiency related  goiter
 subclinical iodine-deficiency hypothyroidism
 congenital hypothyroidism
 postinfectious hypothyroidism
@@ -1066,11 +1068,11 @@ manganese deficiency
 chromium deficiency
 molybdenum deficiency
 vanadium deficiency
-essential fatty acid [efa] deficiency
+essential fatty acid deficiency
 imbalance
 nutritional deficiency
 localized adiposity
-morbid (severe) obesity
+morbid  obesity
 drug-induced obesity
 overweight
 obesity
@@ -1140,7 +1142,7 @@ gm2 gangliosidosis
 sandhoff disease
 tay-sachs disease
 mucolipidosis iv
-fabry (-anderson) disease
+fabry  disease
 gaucher disease
 krabbe disease
 niemann-pick disease type a
@@ -1167,7 +1169,7 @@ familial hypercholesterolemia
 pure hyperglyceridemia
 mixed hyperlipidemia
 hyperchylomicronemia
-elevated lipoprotein(a)
+elevated lipoprotein
 hyperlipidemia
 lipoprotein deficiency
 barth syndrome
@@ -1178,14 +1180,14 @@ lesch-nyhan syndrome
 myoadenydeaminase deficiency
 hereditary erythropoietic porphyria
 porphyria cutanea tarda
-intermittent (hepatic) porphyria
+intermittent  porphyria
 gilbert syndrome
 crigler-najjar syndrome
 wilson's disease
 hereditary hemochromatosis
 hemochromatosis
 familial hypophosphatemia
-hereditary vitamin d-dependent rickets (type 1) (type 2)
+hereditary vitamin d-dependent rickets 
 hypermagnesemia
 hypomagnesemia
 hypocalcemia
@@ -1198,8 +1200,8 @@ neuropathic heredofamilial amyloidosis
 heredofamilial amyloidosis
 systemic amyloidosis
 organ-limited amyloidosis
-light chain (al) amyloidosis
-wild-type transthyretin-related (attr) amyloidosis
+light chain  amyloidosis
+wild-type transthyretin-related  amyloidosis
 amyloidosis
 dehydration
 hypovolemia
@@ -1226,7 +1228,7 @@ metabolic disorder
 hypoinsulinemia
 asymptomatic ovarian failure
 symptomatic ovarian failure
-adrenocortical (-medullary) hypofunction
+adrenocortical  hypofunction
 vascular dementia
 amnestic disorder
 delirium
@@ -1276,7 +1278,7 @@ premenstrual dysphoric disorder
 cyclothymic disorder
 dysthymic disorder
 disruptive mood dysregulation disorder
-persistent mood [affective] disorder
+persistent mood disorder
 agoraphobia
 social phobia
 arachnophobia
@@ -1290,7 +1292,7 @@ panic disorder [episodic paroxysmal anxiety]
 generalized anxiety disorder
 mixed obsessional thoughts and acts
 hoarding disorder
-excoriation (skin-picking) disorder
+excoriation  disorder
 obsessive-compulsive disorder
 stress reaction
 post-traumatic stress disorder
@@ -1417,7 +1419,7 @@ bacterial meningitis
 nonpyogenic meningitis
 benign recurrent meningitis [mollaret]
 disseminated encephalitis and encephalomyelitis
-postinfectious disseminated encephalitis and encephalomyelitis (postinfectious adem)
+postinfectious disseminated encephalitis and encephalomyelitis 
 postimmunization disseminated encephalitis
 tropical spastic paraplegia
 bacterial meningoencephalitis and meningomyelitis
@@ -1498,8 +1500,8 @@ transverse myelitis
 subnecrotizing myelitis
 concentric sclerosis [balo]
 demyelinating disease
-localization-related (focal) (partial) idiopathic epilepsy and epileptic syndromes
-localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes
+localization-related  idiopathic epilepsy and epileptic syndromes
+localization-related  symptomatic epilepsy and epileptic syndromes
 generalized idiopathic epilepsy and epileptic syndromes
 absence epileptic syndrome
 juvenile myoclonic epilepsy
@@ -1527,7 +1529,7 @@ episodic tension-type headache
 post-traumatic headache
 drug-induced headache
 hemicrania continua
-new daily persistent headache (ndph)
+new daily persistent headache 
 thunderclap headache
 hypnic headache
 headache associated
@@ -1535,7 +1537,7 @@ cough headache
 exertional headache
 stabbing headache
 vertebro-basilar artery syndrome
-carotid artery syndrome (hemispheric)
+carotid artery syndrome 
 multiple and bilateral precerebral artery syndromes
 amaurosis fugax
 transient global amnesia
@@ -1553,7 +1555,7 @@ circadian rhythm sleep disorder
 sleep apnea
 central sleep apnea
 high altitude periodic breathing
-obstructive sleep apnea (adult) (pediatric)
+obstructive sleep apnea 
 idiopathic sleep related nonobstructive alveolar hypoventilation
 congenital central alveolar hypoventilation syndrome
 narcolepsy
@@ -1642,12 +1644,12 @@ locked-in state
 brown-sequard syndrome
 anterior cord syndrome
 posterior cord syndrome
-todd's paralysis (postepileptic)
+todd's paralysis 
 paralytic syndrome
 central pain syndrome
 pain
 post-thoracotomy pain
-neoplasm related pain (acute) (chronic)
+neoplasm related pain 
 pain syndrome
 carotid sinus syncope
 familial dysautonomia [riley-day]
@@ -1657,7 +1659,7 @@ autonomic dysreflexia
 complex regional pain syndrome i
 communicating hydrocephalus
 obstructive hydrocephalus
-(idiopathic) normal pressure hydrocephalus
+ normal pressure hydrocephalus
 post-traumatic hydrocephalus
 hydrocephalus
 toxic encephalopathy
@@ -1676,7 +1678,7 @@ syringomyelia and syringobulbia
 conus medullaris syndrome
 cerebrospinal fluid leak
 dural tear
-meningeal adhesions (cerebral) (spinal)
+meningeal adhesions 
 cerebrospinal fluid leak from spinal puncture
 intracranial hypotension
 accidental puncture or laceration
@@ -1817,14 +1819,14 @@ osteomyelitis
 periostitis
 tenonitis
 orbital myositis
-displacement (lateral)
+displacement 
 constant exophthalmos
 intermittent exophthalmos
 pulsating exophthalmos
 deformity
 exostosis
 enophthalmos
-retained (old) foreign body
+retained  foreign body
 follicular conjunctivitis
 atopic conjunctivitis
 toxic conjunctivitis
@@ -1848,7 +1850,7 @@ conjunctival concretions
 conjunctival pigmentations
 conjunctival xerosis
 pinguecula
-conjunctival adhesions and strands (localized)
+conjunctival adhesions and strands 
 conjunctival granuloma
 symblepharon
 scarring
@@ -1891,8 +1893,8 @@ vernal keratoconjunctivitis
 corneal abscess
 diffuse interstitial keratitis
 sclerosing keratitis
-ghost vessels (corneal)
-pannus (corneal)
+ghost vessels 
+pannus 
 localized vascularization
 deep vascularization
 adherent leukoma
@@ -1918,7 +1920,7 @@ keratomalacia
 nodular corneal degeneration
 peripheral corneal degeneration
 endothelial corneal dystrophy
-epithelial (juvenile) corneal dystrophy
+epithelial  corneal dystrophy
 granular corneal dystrophy
 lattice corneal dystrophy
 macular corneal dystrophy
@@ -1939,7 +1941,7 @@ fuchs' heterochromic cyclitis
 vogt-koyanagi syndrome
 hyphema
 iridoschisis
-iris atrophy (essential) (progressive)
+iris atrophy 
 miotic pupillary cyst
 idiopathic cysts
 exudative cysts
@@ -1947,14 +1949,14 @@ implantation cysts
 parasitic cyst
 exudative cyst
 pupillary membranes
-anterior synechiae (iris)
+anterior synechiae 
 goniosynechiae
 iridodialysis
-posterior synechiae (iris)
+posterior synechiae 
 recession
 pupillary abnormality
 floppy iris syndrome
-plateau iris syndrome (post-iridectomy) (postprocedural)
+plateau iris syndrome 
 cortical age-related cataract
 anterior subcapsular polar age-related cataract
 posterior subcapsular polar age-related cataract
@@ -1969,8 +1971,8 @@ localized traumatic opacities
 partially resolved traumatic cataract
 total traumatic cataract
 cataract
-cataract to ocular disorders (degenerative) (inflammatory)
-glaucomatous flecks (subcapsular)
+cataract to ocular disorders 
+glaucomatous flecks 
 drug-induced cataract
 soemmering's ring
 aphakia
@@ -1989,7 +1991,7 @@ age-related choroidal atrophy
 diffuse atrophy
 hereditary choroidal dystrophy
 choroideremia
-choroidal dystrophy (central areolar) (generalized) (peripapillary)
+choroidal dystrophy 
 gyrate atrophy
 expulsive choroidal hemorrhage
 choroidal rupture
@@ -2008,7 +2010,7 @@ partial retinal artery occlusion
 retinal artery branch occlusion
 central retinal vein occlusion
 venous engorgement
-tributary (branch) retinal vein occlusion
+tributary  retinal vein occlusion
 changes
 exudative retinopathy
 hypertensive retinopathy
@@ -2023,7 +2025,7 @@ exudative age-related macular degeneration
 angioid streaks
 macular cyst
 cystoid macular degeneration
-drusen (degenerative)
+drusen 
 puckering
 toxic maculopathy
 lattice degeneration
@@ -2066,8 +2068,8 @@ crystalline deposits
 vitreous membranes and strands
 vitreous degeneration
 vitreomacular adhesion
-panophthalmitis (acute)
-vitreous abscess (chronic)
+panophthalmitis 
+vitreous abscess 
 panuveitis
 parasitic endophthalmitis
 sympathetic uveitis
@@ -2078,9 +2080,8 @@ flat anterior chamber hypotony
 hypotony
 absolute glaucoma
 leucocoria
-retained (old) magnetic foreign body
-retained (old) intraocular foreign body
-retained (nonmagnetic) (old) foreign body
+retained  magnetic foreign body
+retained  intraocular foreign body
 hemophthalmos
 luxation
 optic papillitis
@@ -2098,10 +2099,10 @@ coloboma
 drusen
 pseudopapilledema
 cortical blindness
-third [oculomotor] nerve palsy
-fourth [trochlear] nerve palsy
-sixth [abducent] nerve palsy
-total (external) ophthalmoplegia
+third nerve palsy
+fourth nerve palsy
+sixth nerve palsy
+total ophthalmoplegia
 progressive external ophthalmoplegia
 kearns-sayre syndrome
 monocular esotropia
@@ -2124,7 +2125,7 @@ alternating heterophoria
 mechanical strabismus
 brown's sheath syndrome
 duane's syndrome
-palsy (spasm)
+palsy 
 convergence insufficiency
 convergence excess
 internuclear ophthalmoplegia
@@ -2135,7 +2136,7 @@ regular astigmatism
 anisometropia
 aniseikonia
 presbyopia
-internal ophthalmoplegia (complete) (total)
+internal ophthalmoplegia 
 paresis
 spasm
 deprivation amblyopia
@@ -2194,10 +2195,10 @@ mydriasis
 tonic pupil
 ocular pain
 brow ptosis
-keratopathy (bullous aphakic)
-cataract (lens) fragments
+keratopathy 
+cataract  fragments
 cystoid macular edema
-inflammation (infection)
+inflammation 
 chorioretinal scars after surgery for detachment
 malignant otitis externa
 diffuse otitis externa
@@ -2215,7 +2216,7 @@ acquired deformity
 noninfective disorders
 impacted cerumen
 serous otitis media
-and suballergic otitis media (mucoid) (sanguinous) (serous)
+and suballergic otitis media 
 mucoid otitis media
 allergic otitis media
 suppurative otitis media
@@ -2302,7 +2303,7 @@ combined rheumatic disorders
 rheumatic multiple valve disease
 rheumatic diseases
 rheumatic heart failure
-essential (primary) hypertension
+essential  hypertension
 hypertensive heart disease
 hypertensive kidney disease
 hypertensive heart and kidney disease
@@ -2314,12 +2315,12 @@ hypertensive emergency
 hypertensive crisis
 unstable angina
 angina pectoris
-st elevation (stemi) myocardial infarction
-non-st elevation (nstemi) myocardial infarction
+st elevation  myocardial infarction
+non-st elevation  myocardial infarction
 myocardial infarction
 myocardial infarction type 2
-subsequent st elevation (stemi) myocardial infarction
-subsequent non-st elevation (nstemi) myocardial infarction
+subsequent st elevation  myocardial infarction
+subsequent non-st elevation  myocardial infarction
 hemopericardium as current complication
 atrial septal defect as current complication
 ventricular septal defect as current complication
@@ -2344,7 +2345,7 @@ pulmonary hypertension
 kyphoscoliotic heart disease
 pulmonary arterial hypertension
 thromboembolic pulmonary hypertension
-cor pulmonale (chronic)
+cor pulmonale 
 pulmonary embolism
 eisenmenger's syndrome
 pulmonary heart disease
@@ -2355,19 +2356,19 @@ pericarditis
 adhesive pericarditis
 constrictive pericarditis
 hemopericardium
-pericardial effusion (noninflammatory)
+pericardial effusion 
 cardiac tamponade
 and subinfective endocarditis
 and subendocarditis
-nonrheumatic mitral (valve) insufficiency
-nonrheumatic mitral (valve) prolapse
-nonrheumatic mitral (valve) stenosis
+nonrheumatic mitral  insufficiency
+nonrheumatic mitral  prolapse
+nonrheumatic mitral  stenosis
 nonrheumatic mitral valve disorder
-nonrheumatic aortic (valve) stenosis
-nonrheumatic aortic (valve) insufficiency
+nonrheumatic aortic  stenosis
+nonrheumatic aortic  insufficiency
 nonrheumatic aortic valve disorder
-nonrheumatic tricuspid (valve) stenosis
-nonrheumatic tricuspid (valve) insufficiency
+nonrheumatic tricuspid  stenosis
+nonrheumatic tricuspid  insufficiency
 nonrheumatic tricuspid valve disorder
 nonrheumatic pulmonary valve stenosis
 nonrheumatic pulmonary valve insufficiency
@@ -2378,7 +2379,7 @@ isolated myocarditis
 myocarditis
 dilated cardiomyopathy
 obstructive hypertrophic cardiomyopathy
-endomyocardial (eosinophilic) disease
+endomyocardial  disease
 endocardial fibroelastosis
 alcoholic cardiomyopathy
 cardiomyopathy
@@ -2411,9 +2412,9 @@ ventricular premature depolarization
 sick sinus syndrome
 cardiac arrhythmia
 left ventricular failure
-systolic (congestive) heart failure
-diastolic (congestive) heart failure
-combined systolic (congestive) and diastolic (congestive) heart failure
+systolic  heart failure
+diastolic  heart failure
+combined systolic  heart failure
 right heart failure
 biventricular heart failure
 high output heart failure
@@ -2509,8 +2510,8 @@ pelvic varices
 vulval varices
 gastric varices
 postthrombotic syndrome
-venous insufficiency (chronic) (peripheral)
-venous hypertension (idiopathic)
+venous insufficiency 
+venous hypertension 
 nonspecific mesenteric lymphadenitis
 lymphadenitis
 nonspecific lymphadenitis
@@ -2576,7 +2577,7 @@ nasal polyp
 cyst and mucocele
 deviated nasal septum
 hypertrophy
-nasal mucositis (ulcerative)
+nasal mucositis 
 adenoiditis
 tonsillitis and adenoiditis
 peritonsillar abscess
@@ -2602,10 +2603,10 @@ cough variant asthma
 bronchiectasis
 coalworker's pneumoconiosis
 pneumoconiosis
-aluminosis (of lung)
-bauxite fibrosis (of lung)
+aluminosis 
+bauxite fibrosis 
 berylliosis
-graphite fibrosis (of lung)
+graphite fibrosis 
 stannosis
 pneumoconiosis associated
 byssinosis
@@ -2669,7 +2670,7 @@ subglottic stenosis
 air leak
 respiratory failure
 and respiratory failure
-transfusion-related lung injury (trali)
+transfusion-related lung injury 
 mechanical complication
 ventilator associated pneumonia
 bronchospasm
@@ -2730,7 +2731,7 @@ allergy to existing dental restorative material
 poor aesthetic
 occlusal trauma
 developmental odontogenic cysts
-developmental (nonodontogenic) cysts
+developmental  cysts
 sialoadenitis
 recurrent sialoadenitis
 fistula
@@ -2738,7 +2739,7 @@ sialolithiasis
 mucocele
 recurrent oral aphthae
 cellulitis and abscess
-oral mucositis (ulcerative)
+oral mucositis 
 diseases
 cheek and lip biting
 leukoplakia
@@ -2783,7 +2784,7 @@ pylorospasm
 gastric diverticulum
 obstruction
 angiodysplasia
-dieulafoy lesion (hemorrhagic)
+dieulafoy lesion 
 achlorhydria
 gastroparesis
 appendicitis
@@ -2799,9 +2800,9 @@ parastomal hernia
 ventral hernia
 diaphragmatic hernia
 crohn's disease
-ulcerative (chronic) pancolitis
-ulcerative (chronic) proctitis
-ulcerative (chronic) rectosigmoiditis
+ulcerative  pancolitis
+ulcerative  proctitis
+ulcerative  rectosigmoiditis
 inflammatory polyps
 left sided colitis
 ulcerative colitis
@@ -2816,10 +2817,10 @@ collagenous colitis
 lymphocytic colitis
 microscopic colitis
 noninfective gastroenteritis and colitis
-focal (segmental) (reversible) ischemia
-diffuse (reversible) ischemia
-(reversible) ischemia
-focal (segmental) infarction
+focal  ischemia
+diffuse  ischemia
+ ischemia
+focal  infarction
 diffuse infarction
 vascular disorders
 necrotizing enterocolitis
@@ -2832,7 +2833,7 @@ intussusception
 volvulus
 gallstone ileus
 fecal impaction
-intestinal adhesions [bands]
+intestinal adhesions
 partial intestinal obstruction
 complete intestinal obstruction
 ileus
@@ -2865,7 +2866,7 @@ rectal polyp
 anal prolapse
 rectal prolapse
 radiation proctitis
-anal sphincter tear (healed) (nontraumatic) (old)
+anal sphincter tear 
 dysplasia
 enteroptosis
 dieulafoy lesion
@@ -2875,13 +2876,13 @@ third degree hemorrhoids
 fourth degree hemorrhoids
 residual hemorrhoidal skin tags
 perianal venous thrombosis
-generalized (acute) peritonitis
+generalized  peritonitis
 peritoneal abscess
 spontaneous bacterial peritonitis
 choleperitonitis
 sclerosing mesenteritis
 peritonitis
-peritoneal adhesions (postprocedural) (postinfection)
+peritoneal adhesions 
 hemoperitoneum
 retroperitoneal abscess
 psoas muscle abscess
@@ -2905,9 +2906,9 @@ phlebitis
 nonspecific reactive hepatitis
 granulomatous hepatitis
 autoimmune hepatitis
-nonalcoholic steatohepatitis (nash)
+nonalcoholic steatohepatitis 
 inflammatory liver disease
-fatty (change of) liver
+fatty  liver
 passive congestion
 central hemorrhagic necrosis
 peliosis hepatis
@@ -2948,7 +2949,7 @@ retained cholelithiasis
 hematemesis
 melena
 gastrointestinal hemorrhage
-gastrointestinal mucositis (ulcerative)
+gastrointestinal mucositis 
 colostomy complication
 colostomy hemorrhage
 colostomy infection
@@ -3007,8 +3008,8 @@ bullous disorder
 besnier's prurigo
 atopic neurodermatitis
 flexural eczema
-infantile (acute) (chronic) eczema
-intrinsic (allergic) eczema
+infantile  eczema
+intrinsic  eczema
 atopic dermatitis
 seborrhea capitis
 seborrheic infantile dermatitis
@@ -3054,7 +3055,7 @@ pityriasis rosea
 hypertrophic lichen planus
 bullous lichen planus
 lichenoid drug reaction
-sub(active) lichen planus
+sub lichen planus
 lichen planus
 pityriasis rubra pilaris
 lichen nitidus
@@ -3085,7 +3086,7 @@ drug photoallergic response
 photocontact dermatitis [berloque dermatitis]
 solar urticaria
 polymorphous light eruption
-disseminated superficial actinic porokeratosis (dsap)
+disseminated superficial actinic porokeratosis 
 skin change
 actinic keratosis
 actinic reticuloid
@@ -3103,7 +3104,7 @@ nail dystrophy
 beau's lines
 yellow nail syndrome
 nail disorder
-alopecia (capitis) totalis
+alopecia  totalis
 alopecia universalis
 ophiasis
 alopecia areata
@@ -3167,7 +3168,7 @@ acanthosis nigricans
 corns and callosities
 acquired ichthyosis
 acquired keratosis [keratoderma] palmaris et plantaris
-keratosis punctata (palmaris et plantaris)
+keratosis punctata 
 xerosis cutis
 epidermal thickening
 keratosis follicularis et parafollicularis
@@ -3205,8 +3206,8 @@ vasculitis limited to the skin
 non-pressure ulcer
 pyogenic granuloma
 factitial dermatitis
-febrile neutrophilic dermatosis [sweet]
-eosinophilic cellulitis [wells]
+febrile neutrophilic dermatosis
+eosinophilic cellulitis
 mucinosis
 excessive and redundant skin and subcutaneous tissue
 staphylococcal arthritis
@@ -3237,7 +3238,7 @@ inflammatory polyarthropathy
 enteropathic arthropathies
 juvenile ankylosing spondylitis
 juvenile rheumatoid arthritis
-juvenile rheumatoid polyarthritis (seronegative)
+juvenile rheumatoid polyarthritis 
 pauciarticular juvenile rheumatoid arthritis
 juvenile arthritis
 idiopathic gout
@@ -3249,18 +3250,18 @@ familial chondrocalcinosis
 crystal arthropathy
 postrheumatic arthropathy [jaccoud]
 kaschin-beck disease
-villonodular synovitis (pigmented)
+villonodular synovitis 
 palindromic rheumatism
 intermittent hydrarthrosis
 traumatic arthropathy
 polyarthritis
 monoarthritis
 charcot's joint
-generalized (osteo)arthritis
-heberden's nodes (with arthropathy)
-bouchard's nodes (with arthropathy)
+generalized arthritis
+heberden's nodes 
+bouchard's nodes 
 multiple arthritis
-erosive (osteo)arthritis
+erosive arthritis
 polyosteoarthritis
 bilateral osteoarthritis
 unilateral osteoarthritis
@@ -3273,23 +3274,23 @@ post-traumatic osteoarthritis
 mallet finger
 boutonniere deformity
 swan-neck deformity
-hallux valgus (acquired)
+hallux valgus 
 hallux rigidus
-hallux varus (acquired)
+hallux varus 
 acquired deformities
 valgus deformity
 varus deformity
 flexion deformity
 wrist drop
 foot drop
-flat foot [pes planus] (acquired)
+flat foot [pes planus] 
 acquired clawhand
 acquired clubhand
 acquired clawfoot
 acquired clubfoot
 bunion
 bunionette
-unequal limb length (acquired)
+unequal limb length 
 recurrent dislocation
 recurrent subluxation
 patellofemoral disorders
@@ -3380,18 +3381,18 @@ juvenile dermatomyositis
 polymyositis
 dermatopolymyositis
 progressive systemic sclerosis
-cr(e)st syndrome
+crst syndrome
 systemic sclerosis induced by drug and chemical
 systemic sclerosis
 sicca syndrome
 behcet's disease
 polymyalgia rheumatica
-diffuse (eosinophilic) fasciitis
+diffuse  fasciitis
 multifocal fibrosclerosis
 relapsing panniculitis [weber-christian]
 hypermobility syndrome
 systemic involvement
-dermato(poly)myositis
+dermatomyositis
 hemophilic arthropathy
 systemic disorders
 postural kyphosis
@@ -3453,9 +3454,9 @@ paralytic calcification and ossification
 calcification and ossification
 separation
 nontraumatic ischemic infarction
-immobility syndrome (paraplegic)
+immobility syndrome 
 muscle wasting and atrophy
-muscle weakness (generalized)
+muscle weakness 
 rhabdomyolysis
 muscle spasm
 sarcopenia
@@ -3465,12 +3466,12 @@ trigger thumb
 radial styloid tenosynovitis [de quervain]
 synovitis and tenosynovitis
 spontaneous rupture
-short achilles tendon (acquired)
+short achilles tendon 
 synovial hypertrophy
 transient synovitis
 ganglion
 plica syndrome
-crepitant synovitis (acute) (chronic)
+crepitant synovitis 
 bursitis
 olecranon bursitis
 prepatellar bursitis
@@ -3526,7 +3527,7 @@ atypical femoral fracture
 incomplete atypical femoral fracture
 complete transverse atypical femoral fracture
 complete oblique atypical femoral fracture
-fibrous dysplasia (monostotic)
+fibrous dysplasia 
 skeletal fluorosis
 hyperostosis
 osteitis condensans
@@ -3548,8 +3549,8 @@ major osseous defect
 coxa plana
 pseudocoxalgia
 coxa magna
-osteochondrosis (juvenile)
-slipped upper femoral epiphysis (nontraumatic)
+osteochondrosis 
+slipped upper femoral epiphysis 
 kienbock's disease
 osteochondritis dissecans
 osteochondritis dissecans multiple sites
@@ -3568,7 +3569,7 @@ postradiation scoliosis
 fracture
 periprosthetic fracture
 segmental and somatic dysfunction
-subluxation complex (vertebral)
+subluxation complex 
 subluxation stenosis
 osseous stenosis
 connective tissue stenosis
@@ -3615,7 +3616,7 @@ pyelitis cystica
 pyeloureteritis cystica
 ureteritis cystica
 cystitis
-interstitial cystitis (chronic)
+interstitial cystitis 
 trigonitis
 irradiation cystitis
 uninhibited neuropathic bladder
@@ -3643,13 +3644,13 @@ urethral fistula
 urethral diverticulum
 urethral caruncle
 hypermobility
-intrinsic sphincter deficiency (isd)
+intrinsic sphincter deficiency 
 combined hypermobility
 muscular disorders
 urethral false passage
 urethral disorder
 urinary tract infection
-stress incontinence (female) (male)
+stress incontinence 
 urge incontinence
 incontinence
 post-void dribbling
@@ -3658,7 +3659,7 @@ continuous leakage
 mixed incontinence
 overflow incontinence
 coital incontinence
-postural (urinary) incontinence
+postural  incontinence
 benign prostatic hyperplasia
 nodular prostate
 prostatitis
@@ -3734,14 +3735,14 @@ oophoritis
 salpingitis and oophoritis
 parametritis and pelvic cellulitis
 female pelvic peritonitis
-female pelvic peritoneal adhesions (postinfective)
+female pelvic peritoneal adhesions 
 female pelvic inflammatory disease
 vaginitis
 suband vaginitis
 vulvitis
 suband vulvitis
 ulceration
-mucositis (ulcerative)
+mucositis 
 endometriosis
 urethrocele
 cystocele
@@ -3802,7 +3803,7 @@ postcoital and contact bleeding
 pre-pubertal vaginal bleeding
 abnormal uterine and vaginal bleeding
 mittelschmerz
-superficial (introital) dyspareunia
+superficial  dyspareunia
 deep dyspareunia
 vaginismus
 premenstrual tension syndrome
@@ -3819,7 +3820,7 @@ infection associated
 hyperstimulation
 complications
 complication associated
-(acute) (chronic) kidney failure
+ kidney failure
 bulbous urethral stricture
 membranous urethral stricture
 anterior bulbous urethral stricture
@@ -3850,7 +3851,7 @@ shock
 renal failure
 damage to pelvic organs
 incomplete spontaneous abortion
-(induced) termination
+ termination
 failed attempted termination
 metabolic disorders
 damage to pelvic organs and tissues
@@ -3858,10 +3859,10 @@ supervision
 essential hypertension
 gestational edema
 gestational proteinuria
-gestational [pregnancy-induced] hypertension
+gestational hypertension
 mild to moderate pre-eclampsia
 severe pre-eclampsia
-hellp syndrome (hellp)
+hellp syndrome 
 hellp syndrome
 eclampsia
 threatened abortion
@@ -3930,15 +3931,15 @@ maternal care for incarceration
 maternal care for prolapse
 maternal care for retroversion
 maternal care for abnormality
-maternal care for (suspected) central nervous system malformation
-maternal care for (suspected) chromosomal abnormality
-maternal care for (suspected) hereditary disease
-maternal care for (suspected) damage to fetus from viral disease
-maternal care for (suspected) damage to fetus from alcohol
-maternal care for (suspected) damage to fetus by drugs
-maternal care for (suspected) damage to fetus by radiation
-maternal care for (suspected) fetal abnormality and damage
-maternal care for anti-d [rh] antibodies
+maternal care for  central nervous system malformation
+maternal care for  chromosomal abnormality
+maternal care for  hereditary disease
+maternal care for  damage to fetus from viral disease
+maternal care for  damage to fetus from alcohol
+maternal care for  damage to fetus by drugs
+maternal care for  damage to fetus by radiation
+maternal care for  fetal abnormality and damage
+maternal care for anti-d antibodies
 maternal care for anti-a sensitization
 maternal care for hydrops fetalis
 maternal care for intrauterine death
@@ -3990,8 +3991,8 @@ uterine inertia
 precipitate labor
 hypertonic
 abnormality
-prolonged first stage (of labor)
-prolonged second stage (of labor)
+prolonged first stage 
+prolonged second stage 
 delayed delivery
 long labor
 obstructed labor
@@ -4026,7 +4027,7 @@ maternal distress
 pyrexia
 delayed delivery after artificial rupture
 maternal exhaustion
-onset (spontaneous)
+onset 
 fetal stress
 encounter for full-term uncomplicated delivery
 encounter for cesarean delivery
@@ -4053,7 +4054,7 @@ gonorrhea
 protozoal diseases
 endocrine
 drug use
-smoking (tobacco)
+smoking 
 abnormal glucose
 streptococcus b carrier state
 bariatric surgery status
@@ -4084,7 +4085,7 @@ newborn affected by fetal inflammatory response syndrome
 newborn affected by abnormality
 newborn affected by breech delivery and extraction
 newborn affected by forceps delivery
-newborn affected by delivery by vacuum extractor [ventouse]
+newborn affected by delivery by vacuum extractor
 newborn affected by cesarean delivery
 newborn affected by precipitate delivery
 newborn affected by abnormal uterine contractions
@@ -4098,7 +4099,7 @@ newborn affected by maternal exposure to environmental chemical substances
 newborn affected by maternal noxious substance
 newborn light for gestational age
 newborn small for gestational age
-newborn affected by fetal (intrauterine) malnutrition
+newborn affected by fetal  malnutrition
 newborn affected by slow intrauterine growth
 extremely low birth weight newborn
 extreme immaturity
@@ -4116,7 +4117,7 @@ birth injury to facial nerve
 birth injury to spine and spinal cord
 birth injury to central nervous system
 cephalhematoma
-chignon (from vacuum extraction)
+chignon 
 epicranial subaponeurotic hemorrhage
 bruising
 caput succedaneum
@@ -4169,7 +4170,7 @@ congenital viral disease
 bacterial sepsis
 congenital tuberculosis
 congenital toxoplasmosis
-neonatal (disseminated) listeriosis
+neonatal  listeriosis
 congenital falciparum malaria
 neonatal candidiasis
 congenital infectious or parasitic disease
@@ -4180,20 +4181,20 @@ intra-amniotic infection
 neonatal urinary tract infection
 neonatal skin infection
 infection specific to the perinatal period
-newborn affected by intrauterine (fetal) blood loss from vasa previa
-newborn affected by intrauterine (fetal) blood loss from ruptured cord
-newborn affected by intrauterine (fetal) blood loss from placenta
+newborn affected by intrauterine  blood loss from vasa previa
+newborn affected by intrauterine  blood loss from ruptured cord
+newborn affected by intrauterine  blood loss from placenta
 newborn affected by hemorrhage into co-twin
 newborn affected by hemorrhage into maternal circulation
-newborn affected by intrauterine (fetal) blood loss from cut end
-newborn affected by intrauterine (fetal) blood loss
+newborn affected by intrauterine  blood loss from cut end
+newborn affected by intrauterine  blood loss
 massive umbilical hemorrhage
 umbilical hemorrhage
-intraventricular (nontraumatic) hemorrhage
-intracerebral (nontraumatic) hemorrhage
-subarachnoid (nontraumatic) hemorrhage
-cerebellar (nontraumatic) and posterior fossa hemorrhage
-intracranial (nontraumatic) hemorrhage
+intraventricular  hemorrhage
+intracerebral  hemorrhage
+subarachnoid  hemorrhage
+cerebellar  and posterior fossa hemorrhage
+intracranial  hemorrhage
 hemorrhagic disease
 neonatal hematemesis
 neonatal melena
@@ -4241,7 +4242,7 @@ transitory ileus
 perinatal intestinal perforation
 neonatal hematemesis and melena
 noninfective neonatal diarrhea
-congenital cirrhosis (of liver)
+congenital cirrhosis 
 newborn esophageal reflux
 gestational alloimmune liver disease
 perinatal digestive system disorder
@@ -4287,7 +4288,7 @@ neonatal withdrawal symptoms from maternal use
 withdrawal symptoms from therapeutic use
 wide cranial sutures
 complication to newborn
-exposure to (parental) (environmental) tobacco smoke
+exposure to  tobacco smoke
 delayed separation
 meconium staining
 condition originating
@@ -4436,7 +4437,7 @@ congenital dilatation
 congenital diverticulum
 congenital hypertrophic pyloric stenosis
 congenital hiatus hernia
-meckel's diverticulum (displaced) (hypertrophic)
+meckel's diverticulum 
 hirschsprung's disease
 duplication
 ectopic anus
@@ -4542,9 +4543,9 @@ pectus excavatum
 pectus carinatum
 congenital bowing
 discoid meniscus
-accessory finger(s)
-accessory thumb(s)
-accessory toe(s)
+accessory finger
+accessory thumb
+accessory toe
 polydactyly
 fused fingers
 webbed fingers
@@ -4609,7 +4610,7 @@ hereditary lymphedema
 xeroderma pigmentosum
 congenital cutaneous mastocytosis
 incontinentia pigmenti
-ectodermal dysplasia (anhidrotic)
+ectodermal dysplasia 
 congenital non-neoplastic nevus
 congenital sacral dimple
 accessory breast
@@ -4624,7 +4625,7 @@ neurofibromatosis
 schwannomatosis
 tuberous sclerosis
 phakomatosis
-fetal alcohol syndrome (dysmorphic)
+fetal alcohol syndrome 
 fetal hydantoin syndrome
 dysmorphism
 congenital malformation syndromes predominantly
@@ -4633,7 +4634,7 @@ congenital malformation syndromes
 marfan's syndrome
 alport syndrome
 arterial tortuosity syndrome
-asplenia (congenital)
+asplenia 
 situs inversus
 conjoined twins
 multiple congenital malformations
@@ -4741,7 +4742,7 @@ nausea
 projectile vomiting
 heartburn
 aphagia
-abdominal distension (gaseous)
+abdominal distension 
 gas pain
 eructation
 flatulence
@@ -4935,7 +4936,7 @@ fever
 postvaccination fever
 febrile nonhemolytic transfusion reaction
 headache
-neoplastic (malignant) related fatigue
+neoplastic  related fatigue
 weakness
 functional quadriplegia
 fatigue
@@ -4953,8 +4954,8 @@ localized edema
 generalized edema
 generalized hyperhidrosis
 delayed milestone
-failure to thrive (child)
-short stature (child)
+failure to thrive 
+short stature 
 adult failure to thrive
 anorexia
 polydipsia
@@ -4964,22 +4965,22 @@ abnormal weight loss
 abnormal weight gain
 underweight
 cachexia
-systemic inflammatory response syndrome (sirs)
+systemic inflammatory response syndrome 
 severe sepsis
-fussy infant (baby)
+fussy infant 
 apparent life threatening event
 dry mouth
 clubbing
 satiety
 decreased libido
-chills (without fever)
+chills 
 jaw pain
 illness
 elevated erythrocyte sedimentation rate
 abnormal plasma viscosity
 precipitous drop
 impaired fasting glucose
-impaired glucose tolerance (oral)
+impaired glucose tolerance 
 prediabetes
 hyperglycemia
 nonspecific elevation
@@ -4996,7 +4997,7 @@ bacteremia
 abnormal level
 abnormal coagulation profile
 abnormal blood-gas level
-elevated c-reactive protein (crp)
+elevated c-reactive protein 
 abnormal finding
 persistent proteinuria
 orthostatic proteinuria
@@ -5025,14 +5026,14 @@ high grade squamous intraepithelial lesion
 cytologic evidence
 unsatisfactory cytologic smear
 satisfactory anal smear but lacking transformation zone
-anal high risk human papillomavirus (hpv) dna test positive
-anal low risk human papillomavirus (hpv) dna test positive
+anal high risk human papillomavirus  dna test positive
+anal low risk human papillomavirus  dna test positive
 satisfactory cervical smear but lacking transformation zone
-cervical high risk human papillomavirus (hpv) dna test positive
-vaginal high risk human papillomavirus (hpv) dna test positive
-cervical low risk human papillomavirus (hpv) dna test positive
-vaginal low risk human papillomavirus (hpv) dna test positive
-cloudy (hemodialysis) (peritoneal) dialysis effluent
+cervical high risk human papillomavirus  dna test positive
+vaginal high risk human papillomavirus  dna test positive
+cervical low risk human papillomavirus  dna test positive
+vaginal low risk human papillomavirus  dna test positive
+cloudy  dialysis effluent
 intracranial space-occupying lesion found
 abnormal echoencephalogram
 white matter disease
@@ -5042,29 +5043,29 @@ mammographic calcification found
 inconclusive mammogram
 abnormal radiologic findings
 diagnostic imaging inconclusive
-abnormal electroencephalogram [eeg]
+abnormal electroencephalogram
 abnormal brain scan
 abnormal results
-abnormal electro-oculogram [eog]
-abnormal electroretinogram [erg]
-abnormal visually evoked potential [vep]
+abnormal electro-oculogram
+abnormal electroretinogram
+abnormal visually evoked potential
 abnormal oculomotor study
 abnormal auditory function study
 abnormal vestibular function study
 abnormal response to nerve stimulation
-abnormal electromyogram [emg]
+abnormal electromyogram
 abnormal result
-abnormal electrocardiogram [ecg] [ekg]
+abnormal electrocardiogram
 elevated carcinoembryonic antigen [cea]
 elevated cancer antigen 125 [ca 125]
 elevated prostate specific antigen [psa]
 rising psa
 ill-defined and unknown cause
-blister (nonthermal)
+blister 
 contusion
 external constriction
 superficial foreign body
-insect bite (nonvenomous)
+insect bite 
 puncture wound
 open bite
 type i occipital condyle fracture
@@ -5123,7 +5124,7 @@ traumatic pneumothorax
 traumatic hemothorax
 traumatic hemopneumothorax
 crushed chest
-traumatic amputation (partial)
+traumatic amputation 
 nondisplaced zone i fracture
 minimally displaced zone i fracture
 severely displaced zone i fracture
@@ -5150,8 +5151,8 @@ nondisplaced dome fracture
 incomplete lesion
 minor contusion
 major contusion
-superficial (capsular) laceration
-transection (partial)
+superficial  laceration
+transection 
 anterior displaced fracture
 posterior displaced fracture
 2-part displaced fracture
@@ -5172,9 +5173,9 @@ displaced simple supracondylar fracture
 nondisplaced simple supracondylar fracture
 displaced comminuted supracondylar fracture
 nondisplaced comminuted supracondylar fracture
-displaced fracture (avulsion)
-nondisplaced fracture (avulsion)
-incarcerated fracture (avulsion)
+displaced fracture 
+nondisplaced fracture 
+incarcerated fracture 
 displaced transcondylar fracture
 nondisplaced transcondylar fracture
 anterior subluxation
@@ -5197,8 +5198,8 @@ medial subluxation
 medial dislocation
 lateral subluxation
 lateral dislocation
-radiohumeral (joint) sprain
-ulnohumeral (joint) sprain
+radiohumeral  sprain
+ulnohumeral  sprain
 radial collateral ligament sprain
 ulnar collateral ligament sprain
 bennett's fracture
@@ -5248,8 +5249,8 @@ complex tear
 tear
 displaced intraarticular fracture
 nondisplaced intraarticular fracture
-displaced avulsion fracture (chip fracture)
-nondisplaced avulsion fracture (chip fracture)
+displaced avulsion fracture 
+nondisplaced avulsion fracture 
 suicide attempt
 foreign body
 gastric contents
@@ -5276,11 +5277,11 @@ poisoning by antiviral drugs
 poisoning by glucocorticoids and synthetic analogues
 poisoning by thyroid hormones and substitutes
 poisoning by antithyroid drugs
-poisoning by insulin and oral hypoglycemic [antidiabetic] drugs
+poisoning by insulin and oral hypoglycemic drugs
 poisoning by oral contraceptives
 poisoning by antigonadotrophins
 poisoning by androgens and anabolic congeners
-poisoning by anterior pituitary [adenohypophyseal] hormones
+poisoning by anterior pituitary hormones
 poisoning by aspirin
 poisoning by salicylates
 poisoning by 4-aminophenol derivatives
@@ -5291,7 +5292,7 @@ poisoning by opium
 poisoning by heroin
 poisoning by methadone
 poisoning by cocaine
-poisoning by cannabis (derivatives)
+poisoning by cannabis 
 poisoning by lysergide [lsd]
 poisoning by inhaled anesthetics
 poisoning by intravenous anesthetics
@@ -5345,7 +5346,7 @@ poisoning by digestants
 poisoning by antidiarrheal drugs
 poisoning by emetics
 poisoning by oxytocic drugs
-poisoning by skeletal muscle relaxants [neuromuscular blocking agents]
+poisoning by skeletal muscle relaxants
 poisoning by antitussives
 poisoning by expectorants
 poisoning by antiasthmatics
@@ -5358,7 +5359,7 @@ poisoning by ophthalmological drugs and preparations
 poisoning by otorhinolaryngological drugs and preparations
 poisoning by dental drugs
 poisoning by mineralocorticoids and their antagonists
-poisoning by loop [high-ceiling] diuretics
+poisoning by loop diuretics
 poisoning by carbonic-anhydrase inhibitors
 poisoning by electrolytic
 poisoning by drugs
@@ -5415,8 +5416,8 @@ anaphylactic shock
 angioneurotic edema
 allergy
 arthus phenomenon
-air embolism (traumatic)
-fat embolism (traumatic)
+air embolism 
+fat embolism 
 traumatic and recurrent hemorrhage and seroma
 traumatic shock
 traumatic anuria
@@ -5436,9 +5437,9 @@ hemolytic transfusion reaction
 delayed hemolytic transfusion reaction
 septic shock
 aseptic peritonitis
-emphysema (subcutaneous) resulting from a procedure
+emphysema  resulting from a procedure
 persistent fistula
-breakdown (mechanical)
+breakdown 
 leakage
 infection and inflammatory reaction
 fibrosis
@@ -5471,9 +5472,9 @@ liver transplant infection
 lung transplant rejection
 lung transplant failure
 lung transplant infection
-skin graft (allograft) rejection
-skin graft (allograft) (autograft) failure
-skin graft (allograft) (autograft) infection
+skin graft  rejection
+skin graft  failure
+skin graft  infection
 bone graft rejection
 bone graft failure
 bone graft infection
@@ -5490,3 +5491,78 @@ failed or difficult intubation
 failed moderate sedation
 unintended awareness under general anesthesia
 complication
+clostridium welchii
+lambliasis
+pontiac fever
+brill's disease
+e chafeensis
+russian spring-summer encephalitis
+boston exanthem
+classical dengue
+milker's node
+sixth disease
+fifth disease
+hiv
+sandflea infestation
+m pneumoniae
+k pneumoniae
+e coli
+h influenzae
+b fragilis
+c perfringens
+h pylori
+marchiafava-micheli
+defibrination syndrome
+scid
+alps
+men
+men
+men
+men
+pellagra
+episodic paroxysmal anxiety
+somnambulism
+night terrors
+mollaret
+steele-richardson-olszewski
+devic
+hurst
+balo
+ibm
+riley-day
+buerger's disease
+common cold
+croup
+macleod's syndrome
+accretions
+fogo selvagem
+grover
+pompholyx
+gianotti-crosti
+lyell
+berloque dermatitis
+dermatitis ab igne
+keratoderma
+morphea
+jaccoud
+pes planus
+kawasaki
+takayasu
+weber-christian
+forestier
+de quervain
+dupuytren
+pellegrini-stieda
+lequesne
+tietze
+ein
+herpes simplex
+hie
+hie
+hie
+hie
+cea
+ca 125
+psa
+lsd
+decompression sickness
