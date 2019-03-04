@@ -5491,7 +5491,6 @@ malignant hyperthermia
 failed or difficult intubation
 failed moderate sedation
 unintended awareness under general anesthesia
-complication
 clostridium welchii
 lambliasis
 pontiac fever
@@ -5516,9 +5515,6 @@ marchiafava-micheli
 defibrination syndrome
 scid
 alps
-men
-men
-men
 men
 pellagra
 episodic paroxysmal anxiety
@@ -5558,9 +5554,6 @@ lequesne
 tietze
 ein
 herpes simplex
-hie
-hie
-hie
 hie
 cea
 ca 125
