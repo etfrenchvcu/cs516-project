@@ -1,46 +1,23 @@
+--Convert to lowercase
+sed -e 's/\(.*\)/\L\1/' cpt.txt
+
 --Remove lines
-sed -i '/other /d' problem_icd10cm.txt
-sed -i '/unspecified/d' problem_icd10cm.txt
-sed -i '/classified elsewhere/d' problem_icd10cm.txt
-
---Truncate lines with qualifiers
-sed -i 's/ with .*//g' problem_icd10cm.txt
-sed -i 's/ due to .*//g' problem_icd10cm.txt
-sed -i 's/ not .*//g' problem_icd10cm.txt
-sed -i 's/ complicated by .*//g' problem_icd10cm.txt
-sed -i 's/ during .*//g' problem_icd10cm.txt
-sed -i 's/ complicating .*//g' problem_icd10cm.txt
-sed -i 's/ affecting .*//g' problem_icd10cm.txt
-sed -i 's/ following .*//g' problem_icd10cm.txt
-sed -i 's/ involving.*//g' problem_icd10cm.txt
-sed -i 's/ associated with .*//g' problem_icd10cm.txt
-sed -i 's/ with .*//g' problem_icd10cm.txt
-sed -i 's/ without .*//g' problem_icd10cm.txt
-sed -i 's/ in .*//g' problem_icd10cm.txt
-sed -i 's/ on .*//g' problem_icd10cm.txt
-sed -i 's/ around .*//g' problem_icd10cm.txt
-sed -i 's/ of .*//g' problem_icd10cm.txt
-sed -i 's/ at .*//g' problem_icd10cm.txt
-
---Remove qualifiers at start of line
-sed -i 's/acute //g' problem_icd10cm.txt
-sed -i 's/chronic //g' problem_icd10cm.txt
-sed -i 's/early //g' problem_icd10cm.txt
-sed -i 's/late //g' problem_icd10cm.txt
-sed -i 's/primary //g' problem_icd10cm.txt
-sed -i 's/secondary //g' problem_icd10cm.txt
-sed -i 's/postprocedural //g' problem_icd10cm.txt
-sed -i 's/pre-existing //g' problem_icd10cm.txt
-
---Manual step
-	-Remove items in brackets that don't correspond to problems
-	-Extract remaining items from brackets and concatenate to end of problem file
-		--Extract from brackets
-		perl -nle 'print $1 if /\[(.*)\]/' problem_icd10cm.txt
+sed -i '/unlisted /d' cpt.txt
 
 --Remove items in brackets and parens
-sed -i 's/\[.*\]//g' problem_icd10cm.txt
-sed -i 's/\(.*\)//g' problem_icd10cm.txt
+sed -i 's/\[.*\]//g' cpt.txt
+sed -i 's/[ ]?[(].*[)]//g' cpt.txt
+
+--Truncate lines with qualifiers
+sed -i 's/;.*//g' cpt.txt
+sed -i 's/ for .*//g' cpt.txt
+sed -i 's/ for$//g' cpt.txt
+sed -i 's/ (*//g' cpt.txt
+
+--Remove duplicates
+perl -i -ne 'print if ! $x{$_}++' cpt.txt
+
+
 
 --Remove extra space within sentences
 sed -i 's/ +/ /g' problem_icd10cm.txt
