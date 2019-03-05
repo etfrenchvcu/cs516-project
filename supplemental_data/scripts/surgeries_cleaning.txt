@@ -1,0 +1,26 @@
+--Convert to lowercase
+sed -e 's/\(.*\)/\L\1/' cpt.txt
+
+--Remove lines
+sed -i '/unlisted /d' cpt.txt
+
+--Remove items in brackets and parens
+sed -i 's/\[.*\]//g' cpt.txt
+sed -i 's/[ ]?[(].*[)]//g' cpt.txt
+
+--Truncate lines with qualifiers
+sed -i 's/;.*//g' cpt.txt
+sed -i 's/ for .*//g' cpt.txt
+sed -i 's/ for$//g' cpt.txt
+sed -i 's/ (*//g' cpt.txt
+
+--Remove duplicates
+perl -i -ne 'print if ! $x{$_}++' cpt.txt
+
+
+
+--Remove extra space within sentences
+sed -i 's/ +/ /g' problem_icd10cm.txt
+
+--Remove duplicates
+perl -i -ne 'print if ! $x{$_}++' problem_icd10cm.txt
