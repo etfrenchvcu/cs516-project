@@ -1,0 +1,34 @@
+--Convert to lowercase
+sed -i 's/\(.*\)/\L\1/' cpt.txt
+
+--Remove items in parens
+sed -i 's/[(].*[)]//g' cpt.txt
+
+--Truncate lines with qualifiers
+sed -i 's/;.*//g' cpt.txt
+sed -i 's/ for .*//g' cpt.txt
+sed -i 's/ for$//g' cpt.txt
+sed -i 's/ at .*//g' cpt.txt
+sed -i 's/ with .*//g' cpt.txt
+sed -i 's/ using .*//g' cpt.txt
+sed -i 's/ in .*//g' cpt.txt
+sed -i 's/ on .*//g' cpt.txt
+sed -i 's/ ,typically .*//g' cpt.txt
+sed -i 's/ ,approximately .*//g' cpt.txt
+sed -i 's/ ,age .*//g' cpt.txt
+
+--Remove extra space within sentences
+sed -i 's/ \{1,\}/ /g' cpt.txt
+
+--Filter codes by range
+Treatment
+    Anesthesia: 00100 – 01999; 99100 – 99140
+    Surgery: 10021 – 69990
+Test
+    Radiology: 70010 – 79999
+    Pathology and Laboratory: 80047 – 89398
+    
+--Remove duplicates
+perl -i -ne 'print if ! $x{$_}++' cpt.txt
+
+

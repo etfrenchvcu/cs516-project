@@ -1,0 +1,24 @@
+--Convert to lowercase
+sed -i 's/\(.*\)/\L\1/' treatment_icd10pcs.txt
+
+--Remove items in brackets and parens
+sed -i 's/\[.*\]//g' treatment_icd10pcs.txt
+sed -i 's/[(].*[)]//g' treatment_icd10pcs.txt
+
+--Remove extra space within sentences
+sed -i 's/ \{1,\}/ /g' treatment_icd10pcs.txt
+
+--Truncate lines with qualifiers
+sed -i 's/,.*//g' treatment_icd10pcs.txt
+sed -i 's/ with .*//g' treatment_icd10pcs.txt
+sed -i 's/ without .*//g' treatment_icd10pcs.txt
+sed -i 's/ in .*//g' treatment_icd10pcs.txt
+sed -i 's/ on .*//g' treatment_icd10pcs.txt
+sed -i 's/ using .*//g' treatment_icd10pcs.txt
+sed -i 's/ - .*//g' treatment_icd10pcs.txt
+sed -i 's/ into .*//g' treatment_icd10pcs.txt
+sed -i 's/ from .*//g' treatment_icd10pcs.txt
+sed -i 's/ to [a-z].*//g' treatment_icd10pcs.txt
+
+--Remove duplicates
+perl -i -ne 'print if ! $x{$_}++' treatment_icd10pcs.txt

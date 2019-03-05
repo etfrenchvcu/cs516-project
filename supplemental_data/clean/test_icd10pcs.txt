@@ -1,0 +1,1065 @@
+measurement of central nervous conductivity
+measurement of central nervous electrical activity
+measurement of central nervous pressure
+measurement of intracranial pressure
+measurement of intracranial temperature
+measurement of intracranial saturation
+measurement of peripheral nervous conductivity
+measurement of peripheral nervous electrical activity
+measurement of cardiac electrical activity
+measurement of cardiac output
+measurement of cardiac rate
+measurement of cardiac rhythm
+measurement of cardiac sound
+measurement of cardiac sampling and pressure
+measurement of cardiac action currents
+measurement of cardiac total activity
+measurement of arterial flow
+measurement of arterial pressure
+measurement of arterial sound
+measurement of arterial pulse
+measurement of arterial saturation
+measurement of venous flow
+measurement of venous pressure
+measurement of venous pulse
+measurement of venous saturation
+measurement of circulatory volume
+measurement of lymphatic flow
+measurement of lymphatic pressure
+measurement of visual acuity
+measurement of visual mobility
+measurement of visual pressure
+measurement of olfactory acuity
+measurement of respiratory capacity
+measurement of respiratory flow
+measurement of respiratory rate
+measurement of respiratory resistance
+measurement of respiratory volume
+measurement of respiratory total activity
+measurement of gastrointestinal motility
+measurement of gastrointestinal pressure
+measurement of gastrointestinal secretion
+measurement of biliary flow
+measurement of biliary pressure
+measurement of urinary contractility
+measurement of urinary flow
+measurement of urinary pressure
+measurement of urinary resistance
+measurement of urinary volume
+measurement of musculoskeletal contractility
+measurement of products of conception
+measurement of metabolism
+measurement of temperature
+measurement of sleep
+monitoring of central nervous conductivity
+monitoring of central nervous electrical activity
+monitoring of central nervous pressure
+monitoring of intracranial pressure
+monitoring of intracranial temperature
+monitoring of intracranial saturation
+monitoring of peripheral nervous conductivity
+monitoring of peripheral nervous electrical activity
+monitoring of cardiac electrical activity
+monitoring of cardiac output
+monitoring of cardiac rate
+monitoring of cardiac rhythm
+monitoring of cardiac sound
+monitoring of cardiac stress
+monitoring of cardiac vascular perfusion
+monitoring of arterial flow
+monitoring of arterial pressure
+monitoring of arterial sound
+monitoring of arterial pulse
+monitoring of arterial saturation
+monitoring of venous flow
+monitoring of venous pressure
+monitoring of venous pulse
+monitoring of venous saturation
+monitoring of lymphatic flow
+monitoring of lymphatic pressure
+monitoring of respiratory capacity
+monitoring of respiratory flow
+monitoring of respiratory rate
+monitoring of respiratory resistance
+monitoring of respiratory volume
+monitoring of gastrointestinal motility
+monitoring of gastrointestinal pressure
+monitoring of gastrointestinal secretion
+monitoring of gastrointestinal vascular perfusion
+monitoring of urinary contractility
+monitoring of urinary flow
+monitoring of urinary pressure
+monitoring of urinary resistance
+monitoring of urinary volume
+monitoring of skin and breast vascular perfusion
+monitoring of products of conception
+monitoring of temperature
+monitoring of sleep
+measurement of central nervous stimulator
+measurement of peripheral nervous stimulator
+measurement of cardiac pacemaker
+measurement of cardiac defibrillator
+measurement of respiratory pacemaker
+measurement of musculoskeletal stimulator
+plain radiography of spinal cord
+fluoroscopy of spinal cord
+computerized tomography of brain
+computerized tomography of cisterna
+computerized tomography 
+computerized tomography of sella turcica/pituitary gland
+computerized tomography of spinal cord
+magnetic resonance imaging of brain
+magnetic resonance imaging of sella turcica/pituitary gland
+magnetic resonance imaging of spinal cord
+magnetic resonance imaging of acoustic nerves
+ultrasonography of brain
+ultrasonography of spinal cord
+plain radiography of single coronary artery
+plain radiography of multiple coronary arteries
+plain radiography of single coronary artery bypass graft
+plain radiography of multiple coronary artery bypass grafts
+plain radiography of right heart
+plain radiography of left heart
+plain radiography of right and left heart
+plain radiography of right internal mammary bypass graft
+plain radiography of left internal mammary bypass graft
+plain radiography of other bypass graft
+fluoroscopy of single coronary artery
+fluoroscopy of multiple coronary arteries
+fluoroscopy of single coronary artery bypass graft
+fluoroscopy of multiple coronary artery bypass grafts
+fluoroscopy of right heart
+fluoroscopy of left heart
+fluoroscopy of right and left heart
+fluoroscopy of right internal mammary bypass graft
+fluoroscopy of left internal mammary bypass graft
+fluoroscopy of other bypass graft
+computerized tomography of multiple coronary arteries
+computerized tomography of multiple coronary artery bypass grafts
+computerized tomography of right and left heart
+magnetic resonance imaging of multiple coronary arteries
+magnetic resonance imaging of multiple coronary artery bypass grafts
+magnetic resonance imaging of right and left heart
+ultrasonography of single coronary artery
+ultrasonography of multiple coronary arteries
+ultrasonography of right heart
+ultrasonography of left heart
+ultrasonography of right and left heart
+ultrasonography of heart with aorta
+ultrasonography of pericardium
+ultrasonography of pediatric heart
+plain radiography of thoracic aorta
+plain radiography of right brachiocephalic-subclavian artery
+plain radiography of left subclavian artery
+plain radiography of right common carotid artery
+plain radiography of left common carotid artery
+plain radiography of bilateral common carotid arteries
+plain radiography of right internal carotid artery
+plain radiography of left internal carotid artery
+plain radiography of bilateral internal carotid arteries
+plain radiography of right external carotid artery
+plain radiography of left external carotid artery
+plain radiography of bilateral external carotid arteries
+plain radiography of right vertebral artery
+plain radiography of left vertebral artery
+plain radiography of bilateral vertebral arteries
+plain radiography of right upper extremity arteries
+plain radiography of left upper extremity arteries
+plain radiography of bilateral upper extremity arteries
+plain radiography of intercostal and bronchial arteries
+plain radiography of spinal arteries
+plain radiography of other upper arteries
+plain radiography of thoraco-abdominal aorta
+plain radiography of cervico-cerebral arch
+plain radiography of intracranial arteries
+plain radiography of right pulmonary artery
+plain radiography of left pulmonary artery
+fluoroscopy of thoracic aorta
+fluoroscopy of right brachiocephalic-subclavian artery
+fluoroscopy of left subclavian artery
+fluoroscopy of right common carotid artery
+fluoroscopy of left common carotid artery
+fluoroscopy of bilateral common carotid arteries
+fluoroscopy of right internal carotid artery
+fluoroscopy of left internal carotid artery
+fluoroscopy of bilateral internal carotid arteries
+fluoroscopy of right external carotid artery
+fluoroscopy of left external carotid artery
+fluoroscopy of bilateral external carotid arteries
+fluoroscopy of right vertebral artery
+fluoroscopy of left vertebral artery
+fluoroscopy of bilateral vertebral arteries
+fluoroscopy of right upper extremity arteries
+fluoroscopy of left upper extremity arteries
+fluoroscopy of bilateral upper extremity arteries
+fluoroscopy of intercostal and bronchial arteries
+fluoroscopy of spinal arteries
+fluoroscopy of other upper arteries
+fluoroscopy of thoraco-abdominal aorta
+fluoroscopy of cervico-cerebral arch
+fluoroscopy of intracranial arteries
+fluoroscopy of right pulmonary artery
+fluoroscopy of left pulmonary artery
+fluoroscopy of pulmonary trunk
+computerized tomography of thoracic aorta
+computerized tomography of bilateral common carotid arteries
+computerized tomography of bilateral internal carotid arteries
+computerized tomography of bilateral vertebral arteries
+computerized tomography of intracranial arteries
+computerized tomography of right pulmonary artery
+computerized tomography of left pulmonary artery
+magnetic resonance imaging of thoracic aorta
+magnetic resonance imaging of bilateral common carotid arteries
+magnetic resonance imaging of bilateral internal carotid arteries
+magnetic resonance imaging of bilateral vertebral arteries
+magnetic resonance imaging of right upper extremity arteries
+magnetic resonance imaging of left upper extremity arteries
+magnetic resonance imaging of bilateral upper extremity arteries
+magnetic resonance imaging of spinal arteries
+magnetic resonance imaging of cervico-cerebral arch
+magnetic resonance imaging of intracranial arteries
+ultrasonography of thoracic aorta
+ultrasonography of right brachiocephalic-subclavian artery
+ultrasonography of left subclavian artery
+ultrasonography of right common carotid artery
+ultrasonography of left common carotid artery
+ultrasonography of bilateral common carotid arteries
+ultrasonography of right internal carotid artery
+ultrasonography of left internal carotid artery
+ultrasonography of bilateral internal carotid arteries
+ultrasonography of right upper extremity arteries
+ultrasonography of left upper extremity arteries
+ultrasonography of bilateral upper extremity arteries
+ultrasonography of intracranial arteries
+ultrasonography of right pulmonary artery
+ultrasonography of left pulmonary artery
+ultrasonography of ophthalmic arteries
+plain radiography of abdominal aorta
+plain radiography of hepatic artery
+plain radiography of splenic arteries
+plain radiography of superior mesenteric artery
+plain radiography of inferior mesenteric artery
+plain radiography of right renal artery
+plain radiography of left renal artery
+plain radiography of bilateral renal arteries
+plain radiography of lumbar arteries
+plain radiography of other intra-abdominal arteries
+plain radiography of pelvic arteries
+plain radiography of aorta and bilateral lower extremity arteries
+plain radiography of right lower extremity arteries
+plain radiography of left lower extremity arteries
+plain radiography of other lower arteries
+plain radiography of renal artery transplant
+fluoroscopy of abdominal aorta
+fluoroscopy of hepatic artery
+fluoroscopy of splenic arteries
+fluoroscopy of superior mesenteric artery
+fluoroscopy of inferior mesenteric artery
+fluoroscopy of right renal artery
+fluoroscopy of left renal artery
+fluoroscopy of bilateral renal arteries
+fluoroscopy of lumbar arteries
+fluoroscopy of other intra-abdominal arteries
+fluoroscopy of pelvic arteries
+fluoroscopy of aorta and bilateral lower extremity arteries
+fluoroscopy of right lower extremity arteries
+fluoroscopy of left lower extremity arteries
+fluoroscopy of other lower arteries
+computerized tomography of abdominal aorta
+computerized tomography of celiac artery
+computerized tomography of superior mesenteric artery
+computerized tomography of bilateral renal arteries
+computerized tomography of pelvic arteries
+computerized tomography of right lower extremity arteries
+computerized tomography of left lower extremity arteries
+computerized tomography of bilateral lower extremity arteries
+computerized tomography of renal artery transplant
+magnetic resonance imaging of abdominal aorta
+magnetic resonance imaging of celiac artery
+magnetic resonance imaging of superior mesenteric artery
+magnetic resonance imaging of bilateral renal arteries
+magnetic resonance imaging of pelvic arteries
+magnetic resonance imaging of right lower extremity arteries
+magnetic resonance imaging of left lower extremity arteries
+magnetic resonance imaging of bilateral lower extremity arteries
+ultrasonography of abdominal aorta
+ultrasonography of superior mesenteric artery
+ultrasonography of inferior mesenteric artery
+ultrasonography of right renal artery
+ultrasonography of left renal artery
+ultrasonography of bilateral renal arteries
+ultrasonography of other intra-abdominal arteries
+ultrasonography of right lower extremity arteries
+ultrasonography of left lower extremity arteries
+ultrasonography of bilateral lower extremity arteries
+ultrasonography of celiac and mesenteric arteries
+ultrasonography of femoral artery
+ultrasonography of penile arteries
+plain radiography of epidural veins
+plain radiography of cerebral and cerebellar veins
+plain radiography of intracranial sinuses
+plain radiography of right jugular veins
+plain radiography of left jugular veins
+plain radiography of bilateral jugular veins
+plain radiography of right subclavian vein
+plain radiography of left subclavian vein
+plain radiography of superior vena cava
+plain radiography of inferior vena cava
+plain radiography of right lower extremity veins
+plain radiography of left lower extremity veins
+plain radiography of bilateral lower extremity veins
+plain radiography of right pelvic veins
+plain radiography of left pelvic veins
+plain radiography of bilateral pelvic veins
+plain radiography of right renal vein
+plain radiography of left renal vein
+plain radiography of bilateral renal veins
+plain radiography of right upper extremity veins
+plain radiography of left upper extremity veins
+plain radiography of bilateral upper extremity veins
+plain radiography of right pulmonary vein
+plain radiography of left pulmonary vein
+plain radiography of bilateral pulmonary veins
+plain radiography of portal and splanchnic veins
+plain radiography of other veins
+plain radiography of dialysis shunt/fistula
+fluoroscopy of epidural veins
+fluoroscopy of cerebral and cerebellar veins
+fluoroscopy of intracranial sinuses
+fluoroscopy of right jugular veins
+fluoroscopy of left jugular veins
+fluoroscopy of bilateral jugular veins
+fluoroscopy of right subclavian vein
+fluoroscopy of left subclavian vein
+fluoroscopy of superior vena cava
+fluoroscopy of inferior vena cava
+fluoroscopy of right lower extremity veins
+fluoroscopy of left lower extremity veins
+fluoroscopy of bilateral lower extremity veins
+fluoroscopy of right pelvic veins
+fluoroscopy of left pelvic veins
+fluoroscopy of bilateral pelvic veins
+fluoroscopy of right renal vein
+fluoroscopy of left renal vein
+fluoroscopy of bilateral renal veins
+fluoroscopy of right upper extremity veins
+fluoroscopy of left upper extremity veins
+fluoroscopy of bilateral upper extremity veins
+fluoroscopy of right pulmonary vein
+fluoroscopy of left pulmonary vein
+fluoroscopy of bilateral pulmonary veins
+fluoroscopy of portal and splanchnic veins
+fluoroscopy of other veins
+fluoroscopy of dialysis shunt/fistula
+computerized tomography of intracranial sinuses
+computerized tomography of superior vena cava
+computerized tomography of inferior vena cava
+computerized tomography veins
+computerized tomography veins
+computerized tomography veins
+computerized tomography of right renal vein
+computerized tomography of left renal vein
+computerized tomography of bilateral renal veins
+computerized tomography of right pulmonary vein
+computerized tomography of left pulmonary vein
+computerized tomography of bilateral pulmonary veins
+computerized tomography of portal and splanchnic veins
+magnetic resonance imaging of cerebral and cerebellar veins
+magnetic resonance imaging of intracranial sinuses
+magnetic resonance imaging of bilateral jugular veins
+magnetic resonance imaging of superior vena cava
+magnetic resonance imaging of inferior vena cava
+magnetic resonance imaging of right lower extremity veins
+magnetic resonance imaging of left lower extremity veins
+magnetic resonance imaging of bilateral lower extremity veins
+magnetic resonance imaging veins
+magnetic resonance imaging of bilateral renal veins
+magnetic resonance imaging of right upper extremity veins
+magnetic resonance imaging of left upper extremity veins
+magnetic resonance imaging of bilateral upper extremity veins
+magnetic resonance imaging of bilateral pulmonary veins
+magnetic resonance imaging of portal and splanchnic veins
+magnetic resonance imaging of other veins
+ultrasonography of right jugular veins
+ultrasonography of left jugular veins
+ultrasonography of right subclavian vein
+ultrasonography of left subclavian vein
+ultrasonography of superior vena cava
+ultrasonography of inferior vena cava
+ultrasonography of right lower extremity veins
+ultrasonography of left lower extremity veins
+ultrasonography of bilateral lower extremity veins
+ultrasonography of right renal vein
+ultrasonography of left renal vein
+ultrasonography of bilateral renal veins
+ultrasonography of right upper extremity veins
+ultrasonography of left upper extremity veins
+ultrasonography of bilateral upper extremity veins
+ultrasonography of portal and splanchnic veins
+plain radiography of unilateral abdominal/retroperitoneal lymphatics
+plain radiography of bilateral abdominal/retroperitoneal lymphatics
+plain radiography of head and neck lymphatics
+plain radiography of right upper extremity lymphatics
+plain radiography of left upper extremity lymphatics
+plain radiography of bilateral upper extremity lymphatics
+plain radiography of right lower extremity lymphatics
+plain radiography of left lower extremity lymphatics
+plain radiography of bilateral lower extremity lymphatics
+plain radiography of pelvic lymphatics
+plain radiography of right lacrimal duct
+plain radiography of left lacrimal duct
+plain radiography of bilateral lacrimal ducts
+plain radiography of right optic foramina
+plain radiography of left optic foramina
+plain radiography of right eye
+plain radiography of left eye
+plain radiography of bilateral eyes
+computerized tomography of right eye
+computerized tomography of left eye
+computerized tomography of bilateral eyes
+magnetic resonance imaging of right eye
+magnetic resonance imaging of left eye
+magnetic resonance imaging of bilateral eyes
+ultrasonography of right eye
+ultrasonography of left eye
+ultrasonography of bilateral eyes
+plain radiography of paranasal sinuses
+plain radiography of right parotid gland
+plain radiography of left parotid gland
+plain radiography of bilateral parotid glands
+plain radiography of right submandibular gland
+plain radiography of left submandibular gland
+plain radiography of bilateral submandibular glands
+plain radiography of right salivary gland
+plain radiography of left salivary gland
+plain radiography of bilateral salivary glands
+plain radiography of nasopharynx/oropharynx
+plain radiography of mastoids
+fluoroscopy of pharynx and epiglottis
+fluoroscopy of larynx
+computerized tomography of ear
+computerized tomography of paranasal sinuses
+computerized tomography of bilateral parotid glands
+computerized tomography of bilateral submandibular glands
+computerized tomography of bilateral salivary glands
+computerized tomography of nasopharynx/oropharynx
+computerized tomography of larynx
+magnetic resonance imaging of ear
+magnetic resonance imaging of paranasal sinuses
+magnetic resonance imaging of bilateral parotid glands
+magnetic resonance imaging of bilateral submandibular glands
+magnetic resonance imaging of bilateral salivary glands
+magnetic resonance imaging of nasopharynx/oropharynx
+magnetic resonance imaging of larynx
+plain radiography of right tracheobronchial tree
+plain radiography of left tracheobronchial tree
+plain radiography of bilateral tracheobronchial trees
+plain radiography of upper airways
+fluoroscopy of right lung
+fluoroscopy of left lung
+fluoroscopy of bilateral lungs
+fluoroscopy of diaphragm
+fluoroscopy of right tracheobronchial tree
+fluoroscopy of left tracheobronchial tree
+fluoroscopy of bilateral tracheobronchial trees
+fluoroscopy of mediastinum
+fluoroscopy of upper airways
+computerized tomography of bilateral lungs
+computerized tomography of right tracheobronchial tree
+computerized tomography of left tracheobronchial tree
+computerized tomography of bilateral tracheobronchial trees
+computerized tomography of trachea/airways
+magnetic resonance imaging of lung apices
+ultrasonography of pleura
+ultrasonography of mediastinum
+fluoroscopy of esophagus
+fluoroscopy of stomach
+fluoroscopy of small bowel
+fluoroscopy of colon
+fluoroscopy of upper gi
+fluoroscopy of upper gi and small bowel
+fluoroscopy of duodenum
+fluoroscopy of mouth/oropharynx
+computerized tomography of colon
+ultrasonography of esophagus
+ultrasonography of stomach
+ultrasonography of gastrointestinal tract
+ultrasonography of appendix
+ultrasonography of duodenum
+ultrasonography of rectum
+plain radiography of bile ducts
+plain radiography of gallbladder and bile ducts
+plain radiography of hepatobiliary system
+fluoroscopy of bile ducts
+fluoroscopy of biliary and pancreatic ducts
+fluoroscopy of gallbladder
+fluoroscopy of gallbladder and bile ducts
+fluoroscopy of pancreatic ducts
+computerized tomography of liver
+computerized tomography of liver and spleen
+computerized tomography of pancreas
+computerized tomography of hepatobiliary system
+magnetic resonance imaging of liver
+magnetic resonance imaging of liver and spleen
+magnetic resonance imaging of pancreas
+ultrasonography of bile ducts
+ultrasonography of gallbladder
+ultrasonography of gallbladder and bile ducts
+ultrasonography of liver
+ultrasonography of liver and spleen
+ultrasonography of pancreas
+ultrasonography of hepatobiliary system
+computerized tomography of bilateral adrenal glands
+computerized tomography of parathyroid glands
+computerized tomography of thyroid gland
+magnetic resonance imaging of bilateral adrenal glands
+magnetic resonance imaging of parathyroid glands
+magnetic resonance imaging of thyroid gland
+ultrasonography of right adrenal gland
+ultrasonography of left adrenal gland
+ultrasonography of bilateral adrenal glands
+ultrasonography of parathyroid glands
+ultrasonography of thyroid gland
+plain radiography of right breast
+plain radiography of left breast
+plain radiography of bilateral breasts
+plain radiography of right single mammary duct
+plain radiography of left single mammary duct
+plain radiography of right multiple mammary ducts
+plain radiography of left multiple mammary ducts
+magnetic resonance imaging of right breast
+magnetic resonance imaging of left breast
+magnetic resonance imaging of bilateral breasts
+magnetic resonance imaging of head/neck subcutaneous tissue
+magnetic resonance imaging of upper extremity subcutaneous tissue
+magnetic resonance imaging of thorax subcutaneous tissue
+magnetic resonance imaging of abdomen and pelvis subcutaneous tissue
+magnetic resonance imaging of lower extremity subcutaneous tissue
+ultrasonography of right breast
+ultrasonography of left breast
+ultrasonography of bilateral breasts
+ultrasonography of upper extremity
+ultrasonography of lower extremity
+ultrasonography of abdominal wall
+ultrasonography of chest wall
+ultrasonography of head and neck
+magnetic resonance imaging of upper extremity connective tissue
+magnetic resonance imaging of lower extremity connective tissue
+magnetic resonance imaging of upper extremity tendons
+magnetic resonance imaging of lower extremity tendons
+ultrasonography of upper extremity connective tissue
+ultrasonography of lower extremity connective tissue
+ultrasonography of upper extremity tendons
+ultrasonography of lower extremity tendons
+plain radiography of skull
+plain radiography of right orbit
+plain radiography of left orbit
+plain radiography of bilateral orbits
+plain radiography of nasal bones
+plain radiography of facial bones
+plain radiography of mandible
+plain radiography of right temporomandibular joint
+plain radiography of left temporomandibular joint
+plain radiography of bilateral temporomandibular joints
+plain radiography of right zygomatic arch
+plain radiography of left zygomatic arch
+plain radiography of bilateral zygomatic arches
+plain radiography of single tooth
+plain radiography of multiple teeth
+plain radiography of all teeth
+fluoroscopy of right temporomandibular joint
+fluoroscopy of left temporomandibular joint
+fluoroscopy of bilateral temporomandibular joints
+computerized tomography of skull
+computerized tomography of bilateral orbits
+computerized tomography of facial bones
+computerized tomography of mandible
+computerized tomography of bilateral temporomandibular joints
+computerized tomography of temporal bones
+magnetic resonance imaging of bilateral temporomandibular joints
+plain radiography of right sternoclavicular joint
+plain radiography of left sternoclavicular joint
+plain radiography of bilateral sternoclavicular joints
+plain radiography of bilateral acromioclavicular joints
+plain radiography of right clavicle
+plain radiography of left clavicle
+plain radiography of right scapula
+plain radiography of left scapula
+plain radiography of right shoulder
+plain radiography of left shoulder
+plain radiography of right humerus
+plain radiography of left humerus
+plain radiography of right hand/finger joint
+plain radiography of left hand/finger joint
+plain radiography of right upper arm
+plain radiography of left upper arm
+plain radiography of right elbow
+plain radiography of left elbow
+plain radiography of right forearm
+plain radiography of left forearm
+plain radiography of right wrist
+plain radiography of left wrist
+plain radiography of right hand
+plain radiography of left hand
+plain radiography of right finger
+plain radiography of left finger
+plain radiography of right ribs
+plain radiography of left ribs
+fluoroscopy of right sternoclavicular joint
+fluoroscopy of left sternoclavicular joint
+fluoroscopy of bilateral sternoclavicular joints
+fluoroscopy of bilateral acromioclavicular joints
+fluoroscopy of right clavicle
+fluoroscopy of left clavicle
+fluoroscopy of right scapula
+fluoroscopy of left scapula
+fluoroscopy of right shoulder
+fluoroscopy of left shoulder
+fluoroscopy of right humerus
+fluoroscopy of left humerus
+fluoroscopy of right hand/finger joint
+fluoroscopy of left hand/finger joint
+fluoroscopy of right upper arm
+fluoroscopy of left upper arm
+fluoroscopy of right elbow
+fluoroscopy of left elbow
+fluoroscopy of right forearm
+fluoroscopy of left forearm
+fluoroscopy of right wrist
+fluoroscopy of left wrist
+fluoroscopy of right hand
+fluoroscopy of left hand
+fluoroscopy of right finger
+fluoroscopy of left finger
+fluoroscopy of right ribs
+fluoroscopy of left ribs
+computerized tomography of right sternoclavicular joint
+computerized tomography of left sternoclavicular joint
+computerized tomography of bilateral sternoclavicular joints
+computerized tomography of bilateral acromioclavicular joints
+computerized tomography of right clavicle
+computerized tomography of left clavicle
+computerized tomography of right scapula
+computerized tomography of left scapula
+computerized tomography of right shoulder
+computerized tomography of left shoulder
+computerized tomography of right humerus
+computerized tomography of left humerus
+computerized tomography of right hand/finger joint
+computerized tomography of left hand/finger joint
+computerized tomography of right upper arm
+computerized tomography of left upper arm
+computerized tomography of right elbow
+computerized tomography of left elbow
+computerized tomography of right forearm
+computerized tomography of left forearm
+computerized tomography of right wrist
+computerized tomography of left wrist
+computerized tomography of right hand
+computerized tomography of left hand
+computerized tomography of bilateral hands and wrists
+computerized tomography 
+computerized tomography 
+computerized tomography of right upper extremity
+computerized tomography of left upper extremity
+computerized tomography of bilateral upper extremities
+computerized tomography of thorax
+computerized tomography of right ribs
+computerized tomography of left ribs
+magnetic resonance imaging of right shoulder
+magnetic resonance imaging of left shoulder
+magnetic resonance imaging of right hand/finger joint
+magnetic resonance imaging of left hand/finger joint
+magnetic resonance imaging of right upper arm
+magnetic resonance imaging of left upper arm
+magnetic resonance imaging of right elbow
+magnetic resonance imaging of left elbow
+magnetic resonance imaging of right forearm
+magnetic resonance imaging of left forearm
+magnetic resonance imaging of right wrist
+magnetic resonance imaging of left wrist
+ultrasonography of right shoulder
+ultrasonography of left shoulder
+ultrasonography of right elbow
+ultrasonography of left elbow
+ultrasonography of right wrist
+ultrasonography of left wrist
+ultrasonography of right hand
+ultrasonography of left hand
+plain radiography of right hip
+plain radiography of left hip
+plain radiography of right femur
+plain radiography of left femur
+plain radiography of right knee
+plain radiography of left knee
+plain radiography of right lower leg
+plain radiography of left lower leg
+plain radiography of right ankle
+plain radiography of left ankle
+plain radiography of right calcaneus
+plain radiography of left calcaneus
+plain radiography of right foot
+plain radiography of left foot
+plain radiography of right toe
+plain radiography of left toe
+plain radiography of right patella
+plain radiography of left patella
+plain radiography of right foot/toe joint
+plain radiography of left foot/toe joint
+fluoroscopy of right hip
+fluoroscopy of left hip
+fluoroscopy of right femur
+fluoroscopy of left femur
+fluoroscopy of right knee
+fluoroscopy of left knee
+fluoroscopy of right lower leg
+fluoroscopy of left lower leg
+fluoroscopy of right ankle
+fluoroscopy of left ankle
+fluoroscopy of right calcaneus
+fluoroscopy of left calcaneus
+fluoroscopy of right foot
+fluoroscopy of left foot
+fluoroscopy of right toe
+fluoroscopy of left toe
+fluoroscopy of right patella
+fluoroscopy of left patella
+fluoroscopy of right foot/toe joint
+fluoroscopy of left foot/toe joint
+computerized tomography of right hip
+computerized tomography of left hip
+computerized tomography of right femur
+computerized tomography of left femur
+computerized tomography of right knee
+computerized tomography of left knee
+computerized tomography of right tibia/fibula
+computerized tomography of left tibia/fibula
+computerized tomography of right lower leg
+computerized tomography of left lower leg
+computerized tomography of right ankle
+computerized tomography of left ankle
+computerized tomography of right calcaneus
+computerized tomography of left calcaneus
+computerized tomography of right foot
+computerized tomography of left foot
+computerized tomography 
+computerized tomography 
+computerized tomography of right lower extremity
+computerized tomography of left lower extremity
+computerized tomography of right patella
+computerized tomography of left patella
+computerized tomography of right foot/toe joint
+computerized tomography of left foot/toe joint
+magnetic resonance imaging of right hip
+magnetic resonance imaging of left hip
+magnetic resonance imaging of right femur
+magnetic resonance imaging of left femur
+magnetic resonance imaging of right knee
+magnetic resonance imaging of left knee
+magnetic resonance imaging of right lower leg
+magnetic resonance imaging of left lower leg
+magnetic resonance imaging of right ankle
+magnetic resonance imaging of left ankle
+magnetic resonance imaging of right calcaneus
+magnetic resonance imaging of left calcaneus
+magnetic resonance imaging of right foot
+magnetic resonance imaging of left foot
+magnetic resonance imaging 
+magnetic resonance imaging 
+magnetic resonance imaging of right patella
+magnetic resonance imaging of left patella
+ultrasonography of right hip
+ultrasonography of left hip
+ultrasonography of bilateral hips
+ultrasonography of right knee
+ultrasonography of left knee
+ultrasonography of bilateral knees
+plain radiography of cervical spine
+plain radiography of cervical disc
+plain radiography of thoracic disc
+plain radiography of lumbar disc
+plain radiography of cervical facet joint
+plain radiography of thoracic facet joint
+plain radiography of lumbar facet joint
+plain radiography of thoracic spine
+plain radiography of thoracolumbar joint
+plain radiography of lumbar spine
+plain radiography of lumbosacral joint
+plain radiography of pelvis
+plain radiography of sacroiliac joints
+plain radiography of sacrum and coccyx
+plain radiography of whole spine
+plain radiography of sternum
+fluoroscopy of cervical spine
+fluoroscopy of cervical disc
+fluoroscopy of thoracic disc
+fluoroscopy of lumbar disc
+fluoroscopy of cervical facet joint
+fluoroscopy of thoracic facet joint
+fluoroscopy of lumbar facet joint
+fluoroscopy of thoracic spine
+fluoroscopy of thoracolumbar joint
+fluoroscopy of lumbar spine
+fluoroscopy of lumbosacral joint
+fluoroscopy of pelvis
+fluoroscopy of sacroiliac joints
+fluoroscopy of sacrum and coccyx
+fluoroscopy of whole spine
+fluoroscopy of sternum
+computerized tomography of cervical spine
+computerized tomography of thoracic spine
+computerized tomography of lumbar spine
+computerized tomography of pelvis
+computerized tomography of sacroiliac joints
+computerized tomography of sacrum and coccyx
+magnetic resonance imaging of cervical spine
+magnetic resonance imaging 
+magnetic resonance imaging 
+magnetic resonance imaging 
+magnetic resonance imaging of thoracic spine
+magnetic resonance imaging of lumbar spine
+magnetic resonance imaging of pelvis
+magnetic resonance imaging of sacrum and coccyx
+ultrasonography of cervical spine
+ultrasonography of thoracic spine
+ultrasonography of lumbar spine
+ultrasonography of sacrum and coccyx
+plain radiography of bladder
+plain radiography of right kidney
+plain radiography of left kidney
+plain radiography of bilateral kidneys
+plain radiography of kidneys
+plain radiography of urethra
+plain radiography of right ureter
+plain radiography of left ureter
+plain radiography of bilateral ureters
+plain radiography of bladder and urethra
+plain radiography of ileal diversion loop
+fluoroscopy of bladder
+fluoroscopy of right kidney
+fluoroscopy of left kidney
+fluoroscopy of bilateral kidneys
+fluoroscopy of kidneys
+fluoroscopy of urethra
+fluoroscopy of right ureter
+fluoroscopy of left ureter
+fluoroscopy of bladder and urethra
+fluoroscopy of ileal diversion loop
+fluoroscopy of ileal loop
+computerized tomography of bladder
+computerized tomography of right kidney
+computerized tomography of left kidney
+computerized tomography of bilateral kidneys
+computerized tomography of kidney transplant
+magnetic resonance imaging of bladder
+magnetic resonance imaging of right kidney
+magnetic resonance imaging of left kidney
+magnetic resonance imaging of bilateral kidneys
+magnetic resonance imaging of kidney transplant
+ultrasonography of bladder
+ultrasonography of right kidney
+ultrasonography of left kidney
+ultrasonography of bilateral kidneys
+ultrasonography of urethra
+ultrasonography of right ureter
+ultrasonography of left ureter
+ultrasonography of bilateral ureters
+ultrasonography of kidney transplant
+ultrasonography of kidneys and bladder
+plain radiography of right fallopian tube
+plain radiography of left fallopian tube
+plain radiography of bilateral fallopian tubes
+plain radiography of uterus
+plain radiography of uterus and fallopian tubes
+plain radiography of vagina
+fluoroscopy of right fallopian tube
+fluoroscopy of left fallopian tube
+fluoroscopy of bilateral fallopian tubes
+fluoroscopy of uterus
+fluoroscopy of uterus and fallopian tubes
+fluoroscopy of vagina
+magnetic resonance imaging of right ovary
+magnetic resonance imaging of left ovary
+magnetic resonance imaging of bilateral ovaries
+magnetic resonance imaging of uterus
+magnetic resonance imaging of vagina
+magnetic resonance imaging of pregnant uterus
+magnetic resonance imaging of uterus and ovaries
+ultrasonography of right fallopian tube
+ultrasonography of left fallopian tube
+ultrasonography of bilateral fallopian tubes
+ultrasonography of right ovary
+ultrasonography of left ovary
+ultrasonography of bilateral ovaries
+ultrasonography of uterus
+ultrasonography of uterus and ovaries
+plain radiography of corpora cavernosa
+plain radiography of right epididymis
+plain radiography of left epididymis
+plain radiography of prostate
+plain radiography of right testicle
+plain radiography of left testicle
+plain radiography of vasa vasorum
+fluoroscopy of corpora cavernosa
+fluoroscopy of vasa vasorum
+computerized tomography of prostate
+magnetic resonance imaging of corpora cavernosa
+magnetic resonance imaging of prostate
+magnetic resonance imaging of scrotum
+magnetic resonance imaging of right testicle
+magnetic resonance imaging of left testicle
+magnetic resonance imaging of bilateral testicles
+ultrasonography of scrotum
+ultrasonography of prostate and seminal vesicles
+ultrasonography of penis
+plain radiography of abdomen
+plain radiography of abdomen and pelvis
+plain radiography of chest
+plain radiography of all long bones
+plain radiography of lower extremity
+plain radiography of upper extremity
+plain radiography of whole body
+plain radiography of whole skeleton
+plain radiography of infant whole body
+fluoroscopy of abdomen and pelvis
+fluoroscopy of head and neck
+fluoroscopy of lower extremity
+fluoroscopy of upper extremity
+computerized tomography of abdomen
+computerized tomography of abdomen and pelvis
+computerized tomography of chest and abdomen
+computerized tomography of chest
+computerized tomography of head
+computerized tomography of head and neck
+computerized tomography of neck
+computerized tomography of pelvic region
+magnetic resonance imaging of abdomen
+magnetic resonance imaging of chest
+magnetic resonance imaging of head
+magnetic resonance imaging of neck
+magnetic resonance imaging of pelvic region
+magnetic resonance imaging of retroperitoneum
+magnetic resonance imaging of brachial plexus
+ultrasonography of abdomen
+ultrasonography of abdomen and pelvis
+ultrasonography of neck
+ultrasonography of pelvic region
+magnetic resonance imaging of fetal head
+magnetic resonance imaging of fetal heart
+magnetic resonance imaging of fetal thorax
+magnetic resonance imaging of fetal abdomen
+magnetic resonance imaging of fetal spine
+magnetic resonance imaging of fetal extremities
+magnetic resonance imaging of whole fetus
+ultrasonography of fetal umbilical cord
+ultrasonography of placenta
+ultrasonography of first trimester
+ultrasonography of second trimester
+ultrasonography of third trimester
+communicative/cognitive integration skills assessment of neurological system
+filtered speech assessment
+speech threshold assessment
+speech/word recognition assessment
+staggered spondaic word assessment
+sensorineural acuity level assessment
+synthetic sentence identification assessment
+speech and/or language screening assessment
+nonspoken language assessment
+receptive/expressive language assessment
+articulation/phonology assessment
+motor speech assessment
+aphasia assessment
+fluency assessment
+voice assessment
+communicative/cognitive integration skills assessment
+bedside swallowing and oral function assessment
+instrumental swallowing and oral function assessment
+orofacial myofunctional assessment
+augmentative/alternative communication system assessment
+voice prosthetic assessment
+non-invasive instrumental status assessment
+oral peripheral mechanism assessment
+performance intensity phonetically balanced speech discrimination assessment
+brief tone stimuli assessment
+distorted speech assessment
+dichotic stimuli assessment
+temporal ordering of stimuli assessment
+masking patterns assessment
+other specified central auditory processing assessment
+muscle performance assessment of neurological system
+integumentary integrity assessment of neurological system
+coordination/dexterity assessment of neurological system
+motor function assessment of neurological system
+range of motion and joint integrity assessment of neurological system
+sensory awareness/processing/integrity assessment of neurological system
+reflex integrity assessment of neurological system
+muscle performance assessment of integumentary system
+integumentary integrity assessment of integumentary system
+range of motion and joint integrity assessment of integumentary system
+sensory awareness/processing/integrity assessment of integumentary system
+muscle performance assessment of musculoskeletal system
+integumentary integrity assessment of musculoskeletal system
+range of motion and joint integrity assessment of musculoskeletal system
+sensory awareness/processing/integrity assessment of musculoskeletal system
+muscle performance assessment of genitourinary system
+visual motor integration assessment
+facial nerve function assessment
+somatosensory evoked potentials assessment
+bed mobility assessment
+transfer assessment
+gait and/or balance assessment
+wheelchair mobility assessment
+cranial nerve integrity assessment of neurological system
+neuromotor development assessment of neurological system
+ventilation
+aerobic capacity and endurance assessment of circulatory system
+aerobic capacity and endurance assessment of respiratory system
+bathing/showering assessment
+dressing assessment
+feeding/eating assessment
+grooming/personal hygiene assessment
+home management assessment
+perceptual processing assessment
+psychosocial skills assessment
+anthropometric characteristics assessment
+environmental
+ergonomics and body mechanics assessment
+pain assessment
+vocational activities and functional community or work reintegration skills assessment
+hearing screening assessment
+pure tone audiometry
+bekesy audiometry assessment
+conditioned play audiometry assessment
+select picture audiometry assessment
+visual reinforcement audiometry assessment
+alternate binaural or monaural loudness balance assessment
+tone decay assessment
+short increment sensitivity index assessment
+stenger assessment
+pure tone stenger assessment
+tympanometry assessment
+eustachian tube function assessment
+acoustic reflex patterns assessment
+acoustic reflex threshold assessment
+acoustic reflex decay assessment
+electrocochleography assessment
+auditory evoked potentials assessment
+evoked otoacoustic emissions
+aural rehabilitation status assessment
+auditory processing assessment
+cochlear implant assessment
+ear canal probe microphone assessment
+monaural hearing aid assessment
+binaural hearing aid assessment
+assistive listening system/device selection assessment
+sensory aids assessment
+binaural electroacoustic hearing aid check assessment
+ear protector attentuation assessment
+monaural electroacoustic hearing aid check assessment
+unithermal binaural screen assessment
+oscillating tracking assessment
+sinusoidal vertical axis rotational assessment
+dix-hallpike dynamic assessment
+computerized dynamic posturography assessment
+tinnitus masker assessment
+psychological tests

@@ -1,0 +1,625 @@
+Abdominal MRI
+Abdominal Tap
+Abdominal Ultrasound
+Abdominal X-ray
+ABG
+ABO Blood Typing
+Acoustic Reflex Test
+ACTH
+ACTH Suppression Test
+Activated Partial Thromboplastin Time
+Adrenocorticotropic Hormone
+Adrenocorticotropic Hormone Test
+AFP in Blood
+AFP Test
+AIDS Test
+Air Contrast Study
+Alanine Aminotransferase
+Albumin Test, Blood
+Alcohol, Breath Test
+Aldosterone in Blood
+Aldosterone in Urine
+Alkaline Phosphatase
+Allergy Tests
+Alpha-Amylase Test
+Alpha-Fetoprotein in Blood
+Alpha-Fetoprotein Test
+ALT
+Ambulatory Electrocardiogram
+Ammonia Blood Level Test
+Amniocentesis
+Amylase Plasma Level
+ANA Test
+Angiogram
+Angiogram of the Head and Neck
+Angiogram of the Lung
+Angiography, Fluorescein
+Ankle-brachial index test
+Anoscopy
+Antibody test
+Antigen test
+Antiglobulin Tests
+Antinuclear Antibodies Test
+Antisperm Antibody Test
+APTT
+Arm X-Ray
+Arterial Blood Gases
+Arteriography
+Arthrogram
+Arthroscopy
+Aspartate Aminotransferase Test
+AST Test
+Audiometry
+Auditory Brainstem Evoked Potential (ABEP) Test
+Autopsy
+Back X-Ray
+Bacterial Vaginosis Tests
+Barium Enema
+Barium Swallow
+Bernstein Test
+Beta-Natriuretic Peptide
+Bicarbonate Test
+Bilirubin Test
+Biophysical Profile
+Biopsy
+Biopsy of genital warts
+Bladder stress test
+Blood Alcohol Concentration
+Blood Ca Level
+Blood Calcium Level
+Blood Carbon Dioxide Level
+Blood Carbon Monoxide Level
+Blood Cortisol Levels
+Blood Culture
+Blood K Level
+Blood Lead Level
+Blood Magnesium Test
+Blood Mg Test
+Blood Na Level
+Blood O Level
+Blood Osmolality Test
+Blood Phosphate Level
+Blood Phosphate Test
+Blood PO4 Test
+Blood Potassium Level
+Blood Protein Test
+blood smears
+Blood Sodium Level
+Blood Type Test
+Blood Urea Nitrogen Test
+Blood Uric Acid Level
+BNP Test
+Body Temperature
+Bone Biopsy
+Bone Marrow Aspiration and Biopsy
+Bone Mineral Density
+Bone Scan
+Bonney test
+Bowel Transit Time
+BPP
+Brain Natriuretic Peptide Test
+BRCA Gene Test
+Breast Biopsy
+Breast Cancer Gene Test
+Breast Examination
+Breast MRI
+Breast Self-Examination
+Breast Ultrasound
+Bronchoscopy
+BUN Test
+BUN:Creatinine Ratio
+CA-125 Test
+Cancer Antigen 125
+Cancer Antigen Test
+Carbohydrate Antigen Test
+Carcinoembryonic Antigen Level
+Cardiac Blood Pool Scan
+Cardiac Calcium Scoring
+Cardiac Enzyme Studies
+Cardiac Event Monitoring
+Cardiac Perfusion Scan
+Carotid Angiogram
+CAT Scan
+CBC
+CD4+ Count
+CEA (Carcinoembryonic Antigen) Test
+CEA Level
+Cerebral Angiogram
+Cervical Biopsy and Colposcopy
+Cervical Exam
+Cervical Smear
+Chemical peel
+Chemistry Screen
+Chest X-ray
+Cholesterol and Triglycerides Tests
+Cholesterol Health Check
+Chorionic Villus Sampling (CVS)
+Chromosome Analysis
+CK
+Clinical Breast Examination
+Cobalamin Test
+Cold Agglutinins Test
+Colonoscopy
+Color Vision Tests
+Colposcopy and Cervical Biopsy
+Complete Blood Count
+Computed Tomography
+Contraction Stress Test
+Coombs' Test
+Cordocentesis
+Coronary Angiography
+Coronary Artery Calcium Scoring
+Coronary Calcium Scan
+Cortisol Suppression Test
+C-Peptide
+CPK
+CPK-MB Level
+C-reactive Protein
+C-Reactive Protein (CRP)
+Creatine Kinase
+Creatine Phosphokinase
+Creatine Phosphokinase-MB Isoenzyme Level
+Creatinine and Creatinine Clearance Tests
+CRP
+CT
+CT Myelogram
+CVS
+Cyanocobalamin Test
+Cystic Fibrosis Sweat Test
+Cystography
+Cystometrography
+Cystometry
+Cystoscopy
+Cystourethrogram
+Cystourethroscopy
+Dental Plaque Self-Exam
+Dental X-rays
+Dermabrasion
+DEXA Scan
+Dexamethasone Suppression Test
+Digital Rectal Examination
+Dipyridamole Stress Test
+Dix-Hallpike
+DNA Fingerprinting
+Dobutamine Stress Test
+Doppler Echocardiography
+Doppler Ultrasound
+Drug Monitoring
+Drug Screening Test
+DST
+D-Xylose Absorption Test
+Ear Exam
+Ear Examination
+EBV Antibody Test
+ECG
+Echocardiogram
+echogram
+Echogram, cranial
+ECT
+EEG
+Ejection Fraction Study
+EKG
+Electrocardiogram
+Electrocardiography
+Electroencephalogram
+Electromyogram and Nerve Conduction Studies
+Electron beam computed tomography scan
+Electron beam CT scan
+Electronic Fetal Heart Monitoring
+Electronystagmogram
+EMG
+Endometrial ablation
+Endometrial Biopsy
+Endoscopic Retrograde Cholangiopancreatogram
+Endoscopic sinus exam
+Endoscopy
+ENG
+Epstein-Barr Antibody Test
+ERCP
+Erection Problems Tests
+Esophagram
+Esophagus Tests
+Estradiol Level
+Estriol Level
+Estrogens Level
+Evoked potential test
+Exercise Electrocardiogram
+Expressed prostatic secretions
+Extremity X-ray
+Eye Angiogram
+Face X-Ray
+Facial Radiography
+Facial X-ray
+Fasting Blood Sugar Test
+FBS
+Fecal Analysis
+Fecal Culture
+Fecal Occult Blood Test
+Femoropopliteal bypass
+fem-pop bypass
+Ferritin Levels
+Fertility Awareness
+Fetal Biophysical Profile
+Fetal blood sampling
+Fetal Development Slideshow
+Fetal Heart Monitoring
+Fetal Ultrasound
+Fetoscopy
+Fibrinogen Uptake Study
+Flexible Sigmoidoscopy
+Fluorescein Angiography
+Fluorescein Dye Test
+Folic Acid
+Follicle-Stimulating Hormone
+Free Cortisol Test
+FSH Test
+Funduscopy
+Fungal culture
+Gait analysis
+Galactosemia Test
+Gallbladder Scan
+Gallium Scan
+Gamma Globulin Tests
+Gastric Ulcer Test
+Gastrin Test
+Gated Cardiac Scan
+Genetic Test
+GH Levels
+GHb Test
+Glaucoma Screening Test
+Glaucoma Test
+Globulin Test
+Glucose Challenge Test
+Glucose Tolerance Test
+Glycohemoglobin
+Gonioscopy
+Growth Hormone Levels
+Gynecologic Exam
+Gynecologic Ultrasound
+Gynecological exam
+H. pylori Test
+Hair Analysis
+Hamster Zona-Free Ovum Test
+HAV Antibody Test
+HbA1c
+HBV Antibody Tests
+hCG Test
+HCO3 Test
+HDL Cholesterol Test
+Hearing Tests
+Heart Attack Enzymes
+Heart Echocardiogram
+Helicobacter pylori Tests
+Hemochromatosis Gene Test
+Hemoglobin A1c
+Hemoglobin Electrophoresis
+Hemoglobin S Test
+Hepatitis A Virus Test
+Hepatitis B Virus Test
+Hepatobiliary Scan
+Herpes Tests
+HFE test
+HIDA Scan
+Histocompatibility Testing
+HIV Load Measurement
+HIV Test
+HLA Typing
+Holter Monitoring
+Home Blood Glucose Test
+Home Blood Pressure Test
+Home Ear Examination
+Home Lung Function Test
+Home Pregnancy Tests
+Home Test
+Homocysteine Test
+Hormone Inhibin-A Test
+HSG
+Human Chorionic Gonadotropin Quantitative and Qualitative Blood Tests
+Human Growth Hormone Levels
+Human Immunodeficiency Virus Test
+Human Leukocyte Antigen Typing
+Hydrocortisone Test
+Hysterosalpingogram
+Hysteroscopy
+Immunoglobulins Test
+Indirect Coombs' Test
+Indocyanine Green Test
+Intracavernosal Injection Test
+Intravenous Pyelogram
+Iodine Uptake Test
+Iron Stores
+Jaw X-ray
+Joint Fluid Analysis
+Joint Scan
+Joint X-ray
+Karyotype Test
+Ketone Test
+Kidney Biopsy
+Kidney Scan
+Kidney Stone Analysis
+Knee MRI
+KUB X-ray
+Lactate Dehydrogenase Isoenzymes Test
+Lactate Test
+Lactic Acid
+Lactogenic Hormone Level
+Laryngoscopy
+LDH-1 Test
+LDL Cholesterol Test
+Leg X-Ray
+Leutinizing Hormone Test
+LH Level
+LH Test
+Lipase
+Lipid Profile
+Lipoprotein Analysis
+Liver and Spleen Scan
+Liver Biopsy
+Liver Function Test
+Liver tests
+Lower Gastrointestinal Series
+Lumbar Puncture
+Lung Angiogram
+Lung Biopsy
+Lung Function Testing
+Lung Function Tests
+Lung Scan
+Luteinizing Hormone Level
+Lyme Disease Test
+Lymph Node Biopsy
+Magnetic Resonance Angiogram
+Magnetic Resonance Image
+Magnetic Resonance Imaging
+Male Fertility Test
+Mammogram
+Mammography
+Mantoux Test
+Maternal Serum Alpha-Fetoprotein Test
+Mediastinoscopy
+Mental Health Assessment
+Mental Status Evaluation
+Metanephrine Test
+Microalbumin Urine Test
+Mononucleosis Tests
+Monospot Test
+MRA
+MRI
+MSAFP Test
+MUGA Scan
+Myelogram
+Neck X-Ray
+Nerve Conduction Studies
+Neurological examination
+Neurotransplantation
+NMRI
+Nocturnal Penile Tumescence Test
+Nonexercise stress test
+Norepinephrine Test
+Nuclear Magnetic Resonance
+Nuclear Magnetic Resonance Imaging
+Nylen-Barany test
+OAE Test
+Obstetric Ultrasound
+OGTT
+Ophthalmoscopy
+Oral Glucose Tolerance Test
+Orbitral X-Ray
+Osmolality Test
+Otoacoustic Emissions Test
+Overnight Dexamethasone Suppression Test
+Oxytocin Challenge Test
+Paracentesis
+Parathyroid and Thyroid Ultrasound
+Parathyroid Hormone Level
+Parathyroid Hormone test
+Parentage Testing
+Parotid Scan
+Partial Thromboplastin Time
+Paternity Test
+Pelvic exam
+Pelvic Examination
+Pelvic Ultrasound
+Percutaneous umbilical cord sampling
+Pericardial Tap
+Pericardiocentesis
+Perimetry test
+Peritoneal Tap
+PET Scan
+Phenylketonuria Test
+physical exam
+physical examination
+PKU Screening
+Plantar fascia release
+Plasma Renin Activity Test
+PO4 Urine Test
+Positron Emission Tomography
+Postcoital Test
+Postmortem Examination
+Potassium in Urine Test
+PRA Test
+Pregnancy Test
+Pregnancy Tests
+Pregnancy Ultrasound
+Pro Time Test
+Prostate Biopsy
+Prostate Ultrasound
+Prostate-Specific Antigen Test
+Prothrombin Time Test
+PSA Test
+PT Test
+PTH Test
+PTT
+Pulmonary Angiogram
+Pulmonary Function Tests
+Pulse
+Pulse Measurement
+Pure Tone Audiometry
+Quick Strep Test
+Radioactive Iodine Uptake Test
+Radioactive Thyroid Scan
+Radionuclide Angiography
+Random Blood Sugar Test
+Rapid Strep Test
+Rectal Exam
+Renal Biopsy
+Renal Scan
+Renin Assay
+Reticulocyte Count
+Reticulocyte Index Test
+Retrograde pyelogram
+Rh Blood Typing
+Rheumatoid Factor
+RI Test
+Rigidity Test
+Rinne Test
+Rubella Test
+Salivary Gland Scan
+Schilling Test
+Schwabach Test
+Scrotal Scan
+Sed Rate
+Sedimentation Rate
+Self Breast Exam
+Self-Exam
+Self-Test
+Semen Analysis
+Sentinel Lymph Node Biopsy
+Serum Ca Level
+Serum Calcium Level
+Serum Catecholamines Levels
+Serum Chloride Level
+Serum Creatinine Level
+Serum Fe Levels
+Serum Ferritin Levels
+Serum Glucose Level
+Serum Glutamate-pyruvate Transaminase
+Serum Glutamic Oxaloacetic Transaminase
+Serum Hexosaminidase A and B Test
+Serum Iron T
+Serum Osmolality Level
+Serum Phosphate
+Serum PO4
+Serum Protein Electrophoresis
+Serum Protein Test
+Serum Sodium Level
+Sestamibi Scan
+SGOT
+SGPT
+Shoulder MRI
+Sickle Cell Test
+Sigmoidoscopy
+Sinus X-Ray
+Skin and Wound Cultures
+Skin Biopsy
+Skull X-ray
+Sleep Studies
+Slit lamp exam
+Slit Lamp Examination
+Somatotropin
+sonogram
+Sperm Count
+Sperm Penetration Tests
+Spinal CT
+Spinal MRI
+Spinal Tap
+Spinal X-ray
+Spleen and Liver Scan
+Sputum Culture
+Sputum Cytology
+Stamp Test
+Stomach Ulcer Test
+Stool Analysis
+Stool Antigen Test
+Stool Culture
+Strep Test
+Stress Test
+String test
+Sweat Test
+Syphilis Tests
+T3 Test
+T4 Test
+Tay-Sachs Test
+TB Skin Test
+Technetium Scan
+Technetium Scan of the Thyroid
+Teeth X-ray
+Temperature Measurement
+Testicular Biopsy
+Testicular Examination and Testicular Self-Examination
+Testicular Scan
+Testicular Ultrasound
+Thallium Scan
+Therapeutic Drug Monitoring
+Thoracentesis
+Throat Culture
+Thyroid and Parathyroid Ultrasound
+Thyroid Biopsy
+Thyroid Hormone Tests
+Thyroid Scan
+Thyroid-Stimulating Hormone
+Thyrotropin Test
+Thyroxine Test
+Tissue Type Test
+T-Lymphocyte Measurement
+Tonometry
+Total Body Scan
+Total Cholesterol Test
+Total Serum Protein Test
+Total Testosterone Levels
+Toxicology Tests
+Transesophageal Echocardiography
+Transrectal Ultrasound
+Transvaginal pelvic ultrasound
+Transvaginal Ultrasound
+Treadmill Test
+Triglycerides and Cholesterol Tests
+Triiodothyronine Test
+TSH Test
+Tuberculin Skin Tests
+Tuning Fork Test
+Tympanocentesis
+Tympanometry
+Ultrasound
+Upper Gastrointestinal Endoscopy
+Upper Gastrointestinal Series
+Urea Breath Test
+Urinalysis
+Urinary Calcium Level
+Urinary Catecholamines Levels
+Urinary Cortisol Level
+Urinary Phosphate
+Urinary Potassium Level
+Urinary Sodium Level
+Urinary Tract Infection Home Test
+Urinary Uric Acid Level
+Urine Culture
+Urine PO4 Test
+Urine Test
+Urodynamic tests
+Uroflowmetry
+Uterosalpingography
+Vaginal exam
+Vaginal Self Exam
+Vaginal Self-Examination
+Vaginal vault suspension
+Vaginal Wet Mount
+Vanillylmandelic Acid
+Vein ligation and stripping
+Vein Scan
+Venogram
+Ventilation and Perfusion Scan
+Viral Load Assay
+Viral Load Measurement
+Viral Test
+Vision Tests
+Visual examination
+Vitamin B12 Absorption Test
+Vitamin B12 Test
+VSE
+Vulvar Self-Exam
+Wall Motion Study
+Wet Mount
+Whispered Speech Test
+Wound and Skin Cultures
+X-ray
+Xylose Tolerance Test

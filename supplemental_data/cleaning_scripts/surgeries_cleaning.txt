@@ -1,0 +1,36 @@
+--Convert to lowercase
+sed -i 's/\(.*\)/\L\1/' southern_cross_surgeries.txt
+
+--Remove lines
+sed -i '/effective date/d' southern_cross_surgeries.txt
+sed -i '/all figures include/d' southern_cross_surgeries.txt
+sed -i '/page /d' southern_cross_surgeries.txt
+sed -i '/schs/d' southern_cross_surgeries.txt
+sed -i '/code description/d' southern_cross_surgeries.txt
+sed -i '/scopy/d' southern_cross_surgeries.txt
+sed -i '/graphy/d' southern_cross_surgeries.txt
+sed -i '/biopsy/d' southern_cross_surgeries.txt
+sed -i '/centesis/d' southern_cross_surgeries.txt
+
+--Remove items in parens
+sed -i 's/[(].*[)]//g' southern_cross_surgeries.txt
+sed -i 's/[0-9]\{1,\} //g' southern_cross_surgeries.txt
+
+--Truncate lines with qualifiers
+sed -i 's/- .*//g' southern_cross_surgeries.txt
+sed -i 's/, .*//g' southern_cross_surgeries.txt
+sed -i 's/ with .*//g' southern_cross_surgeries.txt
+sed -i 's/ without .*//g' southern_cross_surgeries.txt
+sed -i 's/ plus .*//g' southern_cross_surgeries.txt
+sed -i 's/ including .*//g' southern_cross_surgeries.txt
+sed -i 's/ for .*//g' southern_cross_surgeries.txt
+
+
+--Remove duplicates
+perl -i -ne 'print if ! $x{$_}++' southern_cross_surgeries.txt
+
+
+
+--Remove extra space within sentences
+sed -i 's/ \{1,\}/ /g' southern_cross_surgeries.txt
+
