@@ -61,7 +61,7 @@ def main():
         metamap_path, problem_file, output_dir, semTypeDict, 'problem', sample_size)
 
     # Write output to a new file
-    output = os.path.join(output_dir, "output.txt")
+    output = os.path.join(output_dir, "semantic_type_counts.txt")
     with open(output, 'w+') as f:
         f.write('semantictype\ttest\ttreatment\tproblem\n')
         for key, value in semTypeDict.items():
